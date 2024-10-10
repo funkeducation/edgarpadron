@@ -1,3 +1,7 @@
+    html {
+    min-width: 430px;    
+    }
+    
     body {
         margin: 0;
         padding: 0;
@@ -85,7 +89,7 @@
         /* DIV del Header Inferior */
         width: 79%;
         padding-top: 20px;
-        padding-bottom: 150px;
+        padding-bottom: 120px;
         margin-left: auto;
         margin-right: auto;
         align-items: end;
@@ -337,4 +341,49 @@
     initial-letter: 4;
     color: orange;
     font-weight: bold;
+  }
+
+  @media screen and (max-width: 665px) {
+    #top-header-left-side {
+    display: none;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #bottom-header {
+    padding-top: 30px;
+    padding-bottom: 110px;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #page-logo {
+    height: 60px;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #text-header {
+    display: none;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #top-header-right-side {
+    align-self: center;
+    width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1457px) {
+    #suscription-form {
+    display: none;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #main-box {
+    padding-top: 0;
+    max-width: 90%;
+    }
   }
