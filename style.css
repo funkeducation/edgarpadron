@@ -1,0 +1,344 @@
+    html {
+        width: 100%;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        color: #272727;
+        background: white;
+        font-size: 1em;
+        line-height: 1.5em;
+    }
+
+    #main-header {
+        /* Header Superior Color Azul */
+        background: #0C59CF4D;
+        height: 54px;
+        width: 100%;
+        display: flex;
+    }
+
+    #top-header-left-side {
+        /* Lado Izquierdo del Header Superior */
+        width: 50%;
+        height: 54px;
+        float: left;
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    #img-left-header {
+        /* Ícono de Correo */
+        height: 35px;
+        margin-left: 20px;
+    }
+
+    #mail-header {
+        /* Texto de la Dirección de Correo */
+        color: #444444;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-family: Montserrat;
+        margin-left: 10px;
+    }
+
+    #top-header-right-side {
+        /* Lado Derecho del Header Superior */
+        width: 50%;
+        height: 54px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        float: right;
+    }
+
+    #top-header-right-side-box {
+        /* DIV Contenedor del Texto e Íconos RRSS */
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    #text-header {
+        /* Texto lateral RRSS */
+        color: #444444;
+        text-decoration: none;
+        font-family: Montserrat;
+        font-size: 1.5em;
+        margin-right: 10px;
+        cursor: default;
+    }
+
+    #social-media-icons-header {
+        /* Íconos RRSS */
+        margin-right: 10px;
+        text-decoration: none;
+        color: #272727;
+    }
+
+    #img-right-header {
+        /* Íconos de RRSS */
+        height: 35px;
+        margin-right: 8px;
+    }
+
+    #bottom-header {
+        /* DIV del Header Inferior */
+        width: 79%;
+        padding-top: 20px;
+        padding-bottom: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: end;
+    }
+
+    #page-logo {
+        /* Imagen del Logo */
+        height: 89px;
+        align-items: end;
+        margin-right: 20px;
+    }
+
+    #bottom-header-left-menu {
+        /* Menú NAV de Página */
+        height: 100%;
+        float: left;
+        display: flex;
+        align-items: end;
+    }
+
+    #menu-header {
+        /* Estilos del Texto del Menú */
+        color: #444444;
+        text-decoration: none;
+        font-size: 30px;
+        font-family: Bebas Neue;
+        margin-right: 10px;
+    }
+
+    #menu-header a {
+        padding: 0px;
+    }
+
+    #bottom-header-right-side {
+        /* Lado Derecho del Header Inferior */
+        width: 280px;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        float: right;
+    }
+
+    input[type=text] {
+        /* Estilos del Input de Suscribir */
+        width: 250px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+    }
+
+    input[type=submit] {
+        /* Estilos del Botón de Suscribir */
+        width: 80px;
+        height: 30px;
+        border: 1px solid #ccc;
+        background-color: #d4d4d4;
+        border-radius: 0 4px 4px 0;
+    }
+
+    input[type=submit]:hover {
+        /* Efecto de Cambio de Color del Botón Suscribir */
+        opacity: 0.8;
+    }
+
+    #main-box {
+        /* Caja de Imagen Central */
+        background: white;
+        max-width: 79%;
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+    }
+
+    #main-picture {
+        /* Estilos de Imagen Caja de Imagen Central */
+        border-radius: 15px;
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #name-box {
+        /* Caja del Nombre Central */
+        background: white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: 100%;
+        overflow: hidden;
+        padding-top: 100px;
+        padding-bottom: 30px;
+    }
+
+    #text-name {
+        /* Estilos de Imagen Nombre Central */
+        width: 80%;
+        cursor: default;
+    }
+
+    #parrafo-main {
+        /* Caja de Párrafo Central */
+        background: white;
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 36px;
+        font-family: Montserrat;
+        color: #000000;
+        line-height: normal;
+        cursor: default;
+    }
+
+    #top-footer {
+        /* Caja de Footer Superior */
+        background: #EBEBEB;
+        height: 54px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #top-footer-text {
+        /* Estilos de Texto Footer Superior */
+        background: #FFFFFF00;
+        color: #606060;
+        font-family: "Aboreto";
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 1.3;
+        letter-spacing: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #bottom-footer {
+        /* Caja de Footer Inferior */
+        background: #232323;
+        height: 385px;
+    }
+
+    #bottom-footer-logo {
+        /* Caja del Logo Footer Inferior */
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: fit-content;
+        padding: 30px;
+    }
+
+    #bottom-logo {
+        /* Estilos del Logo Footer Inferior */
+        width: 100%;
+        align-items: center;
+    }
+
+    #social-media-footer {
+        /* Caja de RRSS del Footer Inferior */
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+    }
+
+    #social-media-icons-footer {
+        /* Íconos RRSS Footer */
+        margin-right: 10px;
+        text-decoration: none;
+        color: #6b6b6b;
+    }
+
+    #bottom-footer-nav {
+        /* Estilos del Logo Footer Inferior */
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+
+    #bottom-footer-links {
+        color: #C0C0C0;
+        font-size: 30px;
+        margin-right: 28px;
+        font-family: Bebas Neue;
+    }
+
+    nav {
+        float: left;
+        width: 100%;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    nav ul li {
+        display: inline-block;
+    }
+
+    nav ul li a {
+        padding: 0px;
+        text-decoration: none;
+        font-family: Bebas Neue;
+        color: #444444;
+    }
+
+    .navbar-nav > li > a {
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    font-size: 30px;
+}
+
+    .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+    #front-text {
+    text-align: justify;
+}
+
+#front-text-2 {
+    text-indent: 140px;
+    text-align: justify;
+}
+
+    /* Style that first letter! */
+    .first-letter {
+    line-height: 70px;
+  }
+
+    /* Style that first letter! */
+    .subhead::first-letter {
+    initial-letter: 4;
+    color: orange;
+    font-weight: bold;
+  }
