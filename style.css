@@ -327,7 +327,6 @@
 }
 
     #front-text-2 {
-    text-indent: 140px;
     text-align: justify;
 }
 
@@ -410,6 +409,7 @@
   @media screen and (max-width: 665px) {
     #parrafo-main {
     padding-top: 20px;
+    padding-bottom: 5px;
     }
   }
 
