@@ -358,7 +358,7 @@
 
   @media screen and (max-width: 665px) {
     #page-logo {
-    height: 60px;
+    height: 71px;
     }
   }
 
@@ -385,5 +385,69 @@
     #main-box {
     padding-top: 0;
     max-width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #bottom-header {
+    width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #text-name {
+    width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #name-box {
+    padding-top: 40px;
+    padding-bottom: 0;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #parrafo-main {
+    padding-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #front-text {
+    font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #front-text-2 {
+    font-size: 20px;
+    text-indent: 70px;
+    }
+  }
+
+  @media screen and (max-width: 533px) {
+    #top-footer {
+    height: 80px;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #bottom-footer-links {
+    font-size: 25px;
+    margin-right: 10px;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #bottom-footer-nav {
+    margin-top: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 665px) {
+    #bottom-footer {
+    height: 320px;
     }
   }
