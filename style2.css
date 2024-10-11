@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Slabo 27px";
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding: 50px 0;
+  }
+  
+  article {
+    width: 60%;
+  }
+  
+  .drop-cap::first-letter {
+    -webkit-initial-letter: 4;
+    initial-letter: 4;
+    color: orange;
+    font-weight: bold;
+    margin-right: 0.75em;
+  }
