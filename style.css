@@ -5,7 +5,7 @@
     body {
         margin: 0;
         padding: 0;
-        font-family: Helvetica, Arial, sans-serif;
+        font-family: Montserrat, Bebas Neue, sans-serif;
         color: #272727;
         background: white;
         font-size: 1em;
@@ -210,6 +210,8 @@
         color: #000000;
         line-height: normal;
         cursor: default;
+        line-height: 1.5;
+        padding: 50px 0;
     }
 
     #top-footer {
@@ -323,11 +325,12 @@
 }
 
     #front-text {
-    text-align: justify;
+    text-align: left;
 }
 
     #front-text-2 {
-    text-align: justify;
+    text-align: left;
+    text-indent: 190px;
 }
 
     /* Style that first letter! */
@@ -341,6 +344,7 @@
     initial-letter: 4;
     color: orange;
     font-weight: bold;
+    margin-right: .50em;
   }
 
   @media screen and (max-width: 665px) {
@@ -416,13 +420,13 @@
 
   @media screen and (max-width: 665px) {
     #front-text {
-    font-size: 20px;
+    font-size: 25px;
     }
   }
 
   @media screen and (max-width: 665px) {
     #front-text-2 {
-    font-size: 20px;
+    font-size: 25px;
     text-indent: 70px;
     }
   }
