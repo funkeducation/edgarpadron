@@ -337,6 +337,7 @@
 
     /* Style that first letter! */
     .subhead::first-letter {
+    -webkit-initial-letter: 4;
     initial-letter: 4;
     color: orange;
     font-weight: bold;
@@ -489,4 +490,12 @@
     #bottom-footer-nav {
     margin-top: 40px;
     }
+  }
+
+  .drop-cap::first-letter {
+    -webkit-initial-letter: 4;
+            initial-letter: 4;
+    color: orange;
+    font-weight: bold;
+    margin-right: .75em;
   }
