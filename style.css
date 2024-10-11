@@ -262,14 +262,13 @@
         max-width: fit-content;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 45px;
+        margin-top: 20px;
     }
 
     #social-media-icons-footer {
         /* Íconos RRSS Footer */
         margin-right: 10px;
         text-decoration: none;
-        color: #6b6b6b;
     }
 
     #bottom-footer-nav {
@@ -277,7 +276,7 @@
         max-width: fit-content;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     #bottom-footer-links {
@@ -327,7 +326,7 @@
     text-align: justify;
 }
 
-#front-text-2 {
+    #front-text-2 {
     text-indent: 140px;
     text-align: justify;
 }
@@ -470,3 +469,24 @@
     color: #686868;
     transition: 0.3s;
 }
+
+   .fa-brands-footer {
+    color: #a5a5a5;
+    transition: 0.4s;
+}
+  
+   .fa-brands-footer:hover {
+    color: #535353;
+    transition: 0.3s;
+}
+
+.nav-item{
+    margin-top: 10px;
+    text-align: right;
+}
+
+@media screen and (max-width: 665px) {
+    #bottom-footer-nav {
+    margin-top: 40px;
+    }
+  }
