@@ -76,7 +76,8 @@
         /* Íconos RRSS */
         margin-right: 10px;
         text-decoration: none;
-        color: #272727;
+        color: #3d3a2b;
+        background-color: #ffffff;
     }
 
     #img-right-header {
@@ -459,3 +460,13 @@
     object-fit: cover;
     }
   }
+
+  .fa-brands {
+    color: #3d3a2b;
+    transition: 0.4s;
+}
+  
+  .fa-brands:hover {
+    color: #686868;
+    transition: 0.3s;
+}
