@@ -448,6 +448,14 @@
 
   @media screen and (max-width: 665px) {
     #bottom-footer {
-    height: 320px;
+    height: 280px;
+    }
+  }
+
+  @media screen and (max-width: 665px) {
+    #main-picture {
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     }
   }
