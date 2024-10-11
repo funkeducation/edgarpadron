@@ -282,7 +282,6 @@
     }
 
     #bottom-footer-links {
-        color: #C0C0C0;
         font-size: 30px;
         margin-right: 28px;
         font-family: Bebas Neue;
@@ -466,7 +465,7 @@
   }
 
   .fa-brands {
-    color: #3d3a2b;
+    color: #3b3b3b;
     transition: 0.4s;
 }
   
@@ -485,7 +484,7 @@
     transition: 0.3s;
 }
 
-.nav-item{
+    .nav-item{
     margin-top: 10px;
     text-align: right;
 }
@@ -495,3 +494,13 @@
     margin-top: 40px;
     }
   }
+
+  .bfl-hover {
+    color: #4d4d4d;
+    transition: 0.4s;
+}
+  
+  .bfl-hover:hover {
+    color: #8f8f8f;
+    transition: 0.3s;
+}
