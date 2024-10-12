@@ -325,6 +325,7 @@
 
     #front-text {
     text-align: left;
+    text-indent: 100px;
 }
 
     #front-text-2 {
@@ -333,15 +334,11 @@
 }
 
     /* Style that first letter! */
-    .first-letter {
-    line-height: 70px;
-  }
-
-    /* Style that first letter! */
     .subhead::first-letter {
     -webkit-initial-letter: 4;
     initial-letter: 4;
     color: orange;
+    font-family: Montserrat;
     font-weight: bold;
     margin-right: .50em;
   }
