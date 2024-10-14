@@ -1,0 +1,599 @@
+html {
+    min-width: 430px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Bebas Neue, sans-serif;
+    color: #272727;
+    background: white;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#main-header {
+    /* Header Superior Color Azul */
+    background: #232323;
+    height: 54px;
+    width: 100%;
+    display: flex;
+}
+
+#top-header-left-side {
+    /* Lado Izquierdo del Header Superior */
+    width: 50%;
+    height: 54px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #8f8f8f;
+}
+
+#img-left-header {
+    /* Ícono de Correo */
+    height: 35px;
+    margin-left: 20px;
+}
+
+#mail-header {
+    /* Texto de la Dirección de Correo */
+    color: #8f8f8f;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: Montserrat;
+    margin-left: 10px;
+}
+
+#top-header-right-side {
+    /* Lado Derecho del Header Superior */
+    width: 50%;
+    height: 54px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    float: right;
+}
+
+#top-header-right-side-box {
+    /* DIV Contenedor del Texto e Íconos RRSS */
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#text-header {
+    /* Texto lateral RRSS */
+    color: #8f8f8f;
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    margin-right: 10px;
+    cursor: default;
+}
+
+#social-media-icons-header {
+    /* Íconos RRSS */
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#img-right-header {
+    /* Íconos de RRSS */
+    height: 35px;
+    margin-right: 8px;
+}
+
+#bottom-header {
+    /* DIV del Header Inferior */
+    width: 100%;
+    background-image: url("images/degradation.png");
+    background-repeat: repeat-x;
+}
+
+#bottom-header-container {
+    /* DIV del Header Inferior */
+    width: 79%;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: end;
+}
+
+#page-logo {
+    /* Imagen del Logo */
+    height: 89px;
+    align-items: end;
+    margin-right: 20px;
+}
+
+#bottom-header-left-menu {
+    /* Menú NAV de Página */
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: end;
+}
+
+#menu-header {
+    /* Estilos del Texto del Menú */
+    color: #444444;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Bebas Neue;
+    margin-right: 10px;
+}
+
+#bottom-header-right-side {
+    /* Lado Derecho del Header Inferior */
+    width: 280px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    float: right;
+}
+
+input[type=text] {
+    /* Estilos del Input de Suscribir */
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+input[type=submit] {
+    /* Estilos del Botón de Suscribir */
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #d4d4d4;
+    border-radius: 0 4px 4px 0;
+}
+
+input[type=submit]:hover {
+    /* Efecto de Cambio de Color del Botón Suscribir */
+    opacity: 0.8;
+}
+
+#main-box {
+    /* Caja de Imagen Central */
+    background: white;
+    max-width: 79%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+#main-picture {
+    /* Estilos de Imagen Caja de Imagen Central */
+    border-radius: 15px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name-box {
+    /* Caja del Nombre Central */
+    background: white;
+    display: block;
+}
+
+#text-name {
+    /* Estilos de Imagen Nombre Central */
+    width: 100%;
+    cursor: default;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#parrafo-main {
+    /* Caja de Párrafo Central */
+    background: white;
+    display: inline-flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-family: Montserrat;
+    color: #000000;
+    line-height: normal;
+    cursor: default;
+    line-height: 1.5;
+}
+
+#parrafo-main-2 {
+    /* Caja de Párrafo Central 2 */
+    background: white;
+    display: inline-flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    font-size: 36px;
+    font-family: Montserrat;
+    color: #000000;
+    line-height: normal;
+    cursor: default;
+    line-height: 1.5;
+}
+
+#parrafo-div {
+    /* Caja del Texto Central 1 */
+    width: 69%;
+    font-size: 2vw;
+}
+
+#picture-text {
+    /* Texto Central 1 */
+    width: 31%;
+}
+
+#picture-img {
+    /* Imagen del Texto Central 1 */
+    width: 100%;
+    height: auto;
+}
+
+#parrafo-div-2 {
+    /* Caja del Texto Central 2 */
+    width: 69%;
+    font-size: 2vw;
+}
+
+#picture-text-2 {
+    /* Texto Central 2 */
+    width: 31%;
+}
+
+#picture-img-2 {
+    /* Imagen del Texto Central 2 */
+    width: 100%;
+    height: auto;
+}
+
+#h5-style {
+    /* Estilo H5 del Carrusel */
+    color: #000000;
+}
+
+#front-text {
+    /* Estilos del Texto Central 1 */
+    text-align: left;
+}
+
+#front-text-2 {
+    /* Estilos del Texto Central 2 */
+    text-align: right;
+}
+
+#h5-p-style {
+    /* Estilo P H5 del Carrusel */
+    color: #000000;
+}
+
+#top-footer {
+    /* Caja de Footer Superior */
+    background: #EBEBEB;
+    height: 54px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-footer-text {
+    /* Estilos de Texto Footer Superior */
+    background: #FFFFFF00;
+    color: #606060;
+    font-family: "Aboreto";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.3;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#bottom-footer {
+    /* Caja de Footer Inferior */
+    background: #232323;
+    height: 385px;
+}
+
+#bottom-footer-logo {
+    /* Caja del Logo Footer Inferior */
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    padding: 30px;
+}
+
+#bottom-logo {
+    /* Estilos del Logo Footer Inferior */
+    width: 100%;
+    align-items: center;
+}
+
+#social-media-footer {
+    /* Caja de RRSS del Footer Inferior */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#social-media-icons-footer {
+    /* Íconos RRSS Footer */
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+#bottom-footer-nav {
+    /* Estilos del Logo Footer Inferior */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#bottom-footer-links {
+    /* Enlaces del NAV del Footer */
+    font-size: 30px;
+    margin-right: 28px;
+    font-family: Bebas Neue;
+}
+
+nav {
+    /* Estilos del NAV */
+    float: left;
+    width: 100%;
+}
+
+nav ul {
+    /* Estilos del NAV UL */
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li {
+    /* Estilos del NAV UL LI */
+    display: inline-block;
+}
+
+nav ul li a {
+    /* Estilos del NAV UL LI A */
+    padding: 0px;
+    text-decoration: none;
+    font-family: Bebas Neue;
+    color: #444444;
+}
+
+.nav-item {
+    /* Estilo Custom del NAV Bootstrap */
+    margin-top: 10px;
+    text-align: right;
+}
+
+.navbar-nav>li>a {
+    /* Estilos del NAVBAR NAV*/
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    font-size: 30px;
+}
+
+.container-fluid {
+    /* Padding Custom del NAV Bootstrap */
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.subhead::first-letter {
+    /* Estilo de primera letra grande */
+    -webkit-initial-letter: 4;
+    initial-letter: 4;
+    color: orange;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-right: .50em;
+}
+
+.bfl-hover:hover {
+    /* Efecto de enlace fade-in */
+    color: #8f8f8f;
+    transition: 0.3s;
+}
+
+.bfl-hover {
+    /* Efecto de enlace fade-out */
+    color: #4d4d4d;
+    transition: 0.4s;
+}
+
+.fa-brands:hover {
+    /* Estilo Custom Fade-In Header RRSS */
+    color: #686868;
+    transition: 0.3s;
+}
+
+.fa-brands {
+    /* Estilo Custom Fade-Out Header RRSS */
+    color: #3b3b3b;
+    transition: 0.4s;
+}
+
+.fa-brands-footer:hover {
+    /* Estilo Custom Fade-In Footer RRSS */
+    color: #535353;
+    transition: 0.3s;
+}
+
+.fa-brands-footer {
+    /* Estilo Custom Fade-Out Footer RRSS */
+    color: #a5a5a5;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 665px) {
+    #top-header-left-side {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #page-logo {
+        height: 71px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #text-header {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #top-header-right-side {
+        align-self: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1481px) {
+    #suscription-form {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #bottom-header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #bottom-header-container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #main-box {
+        padding-top: 20px;
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #text-name {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #name-box {
+        padding-top: 0px;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #parrafo-main {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #front-text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #front-text-2 {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 533px) {
+    #top-footer {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #bottom-footer-links {
+        font-size: 25px;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #bottom-footer-nav {
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 665px) {
+    #bottom-footer {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #main-picture {
+        max-width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #parrafo-div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #parrafo-div-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #picture-text {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #picture-text-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #bottom-footer-nav {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #front-text-2 {
+        text-align: left;
+    }
+}
