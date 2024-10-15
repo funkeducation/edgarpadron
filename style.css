@@ -39,7 +39,6 @@ body {
 
 #mail-header {
     /* Texto de la Dirección de Correo */
-    color: #8f8f8f;
     text-decoration: none;
     font-size: 1.5em;
     font-family: Montserrat;
@@ -279,6 +278,13 @@ input[type=submit]:hover {
     color: #000000;
 }
 
+#degradation-div {
+    /* DIV de Imagen de Degradación del Top Footer */
+    background-image: url("images/degradation2.png");
+    background-repeat: repeat-x;
+    height: 17px;
+}
+
 #top-footer {
     /* Caja de Footer Superior */
     background: #EBEBEB;
@@ -306,6 +312,8 @@ input[type=submit]:hover {
     /* Caja de Footer Inferior */
     background: #232323;
     height: 385px;
+    background-image: url("images/degradation3.png");
+    background-repeat: repeat-x;
 }
 
 #bottom-footer-logo {
@@ -412,14 +420,26 @@ nav ul li a {
 }
 
 .bfl-hover:hover {
-    /* Efecto de enlace fade-in */
+    /* Efecto de enlace nav fade-in */
     color: #8f8f8f;
     transition: 0.3s;
 }
 
 .bfl-hover {
-    /* Efecto de enlace fade-out */
+    /* Efecto de enlace nav fade-out */
     color: #4d4d4d;
+    transition: 0.4s;
+}
+
+.bfl2-hover:hover {
+    /* Efecto de enlace e-mail fade-in */
+    color: #535353;
+    transition: 0.3s;
+}
+
+.bfl2-hover {
+    /* Efecto de enlace e-mail fade-out */
+    color: #8f8f8f;
     transition: 0.4s;
 }
 
