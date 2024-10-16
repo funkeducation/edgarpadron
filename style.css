@@ -88,6 +88,7 @@ body {
 #bottom-header {
     /* DIV del Header Inferior */
     width: 100%;
+    min-height: auto;
     background-image: url("images/degradation.png");
     background-repeat: repeat-x;
 }
@@ -780,6 +781,12 @@ nav ul li a {
 @media screen and (max-width: 665px) {
     .nav-vertical {
         display: none;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #bottom-header-spacer {
+        height: 130px;
     }
 }
 
