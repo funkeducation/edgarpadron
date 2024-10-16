@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', 'Barlow Condensed', sans-serif;
     color: #272727;
     background: white;
     font-size: 1em;
@@ -123,7 +123,7 @@ body {
     color: #444444;
     text-decoration: none;
     font-size: 30px;
-    font-family: 'Bebas Neue';
+    font-family: 'Barlow Condensed';
     margin-right: 10px;
 }
 
@@ -359,8 +359,8 @@ input[type=submit]:hover {
 #bottom-footer-links {
     /* Enlaces del NAV del Footer */
     font-size: 30px;
-    margin-right: 28px;
-    font-family: 'Bebas Neue';
+    margin-right: 20px;
+    font-family: 'Barlow Condensed';
 }
 
 nav {
@@ -387,8 +387,9 @@ nav ul li a {
     /* Estilos del NAV UL LI A */
     padding: 0px;
     text-decoration: none;
-    font-family: 'Bebas Neue';
+    font-family: 'Barlow Condensed';
     color: #444444;
+    letter-spacing: -0.5px;
 }
 
 .nav-item {
