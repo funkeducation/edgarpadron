@@ -6,7 +6,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", "Bebas Neue", sans-serif;
+    font-family: 'Montserrat', 'Bebas Neue', sans-serif;
     color: #272727;
     background: white;
     font-size: 1em;
@@ -42,7 +42,7 @@ body {
     /* Texto de la Dirección de Correo */
     text-decoration: none;
     font-size: 1.5em;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     margin-left: 10px;
 }
 
@@ -67,7 +67,7 @@ body {
     /* Texto lateral RRSS */
     color: #8f8f8f;
     text-decoration: none;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-size: 1.5em;
     margin-right: 10px;
     cursor: default;
@@ -123,7 +123,7 @@ body {
     color: #444444;
     text-decoration: none;
     font-size: 30px;
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue';
     margin-right: 10px;
 }
 
@@ -203,7 +203,7 @@ input[type=submit]:hover {
     margin-right: auto;
     padding-bottom: 50px;
     font-size: 36px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     color: #000000;
     line-height: normal;
     cursor: default;
@@ -219,7 +219,7 @@ input[type=submit]:hover {
     margin-right: auto;
     padding-bottom: 50px;
     font-size: 36px;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     color: #000000;
     line-height: normal;
     cursor: default;
@@ -301,7 +301,7 @@ input[type=submit]:hover {
     /* Estilos de Texto Footer Superior */
     background: #FFFFFF00;
     color: #606060;
-    font-family: "Aboreto";
+    font-family: 'Aboreto';
     font-weight: 400;
     font-size: 25px;
     line-height: 1.3;
@@ -360,7 +360,7 @@ input[type=submit]:hover {
     /* Enlaces del NAV del Footer */
     font-size: 30px;
     margin-right: 28px;
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue';
 }
 
 nav {
@@ -387,7 +387,7 @@ nav ul li a {
     /* Estilos del NAV UL LI A */
     padding: 0px;
     text-decoration: none;
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue';
     color: #444444;
 }
 
@@ -416,7 +416,7 @@ nav ul li a {
     -webkit-initial-letter: 4;
     initial-letter: 4;
     color: orange;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     font-weight: bold;
     margin-right: .50em;
 }
