@@ -468,26 +468,156 @@ nav ul li a {
     transition: 0.4s;
 }
 
-.nav-vertical{
+.nav-vertical {
     position: relative;
     bottom: -2em;
     right: 1em;
     float: right;
-  }
-  
-.btn-nav-vertical{
-    display: block;
-  }
+}
 
-.boton-hover{
+.btn-nav-vertical {
+    display: block;
+}
+
+.boton-hover {
     width: 64px;
     height: 64px;
     transition: 0.4s;
 }
 
-.imglink:hover .boton-hover{
-    opacity:0.4;
+.imglink:hover .boton-hover {
+    opacity: 0.4;
     transition: 0.3s;
+}
+
+.top-container {
+    background-color: #2f3b4f;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 6px 6px 8px #a5a5a5;
+    background-image: url("images/bg-cv-top.png");
+}
+
+.contenedor-imagen {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-imagen>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Estilos Sección Portfolio / CV */
+* {
+    box-sizing: border-box;
+}
+
+.main-cv {
+    /* Estilos Sección Portfolio / CV */
+    max-width: 79%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    cursor: default;
+}
+
+#name-div {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 40px;
+    word-break: normal;
+    text-align: center;
+    color: #e0e0e0;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#name-title-1 {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 20px;
+    word-break: normal;
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+#name-title-2 {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 15px;
+    word-break: normal;
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+}
+
+#cv-links {
+    /* Estilos Sección Portfolio / CV */
+    color: #000000;
+    text-decoration: none;
+}
+
+#cv-pics {
+    /* Estilos Sección Portfolio / CV */
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#cv-pics:hover {
+    /* Estilos Sección Portfolio / CV */
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.row {
+    /* Estilos Sección Portfolio / CV */
+    margin: 8px -16px;
+}
+
+.row,
+.row>.column {
+    /* Estilos Sección Portfolio / CV */
+    padding: 8px;
+}
+
+.column-1 {
+    /* Estilos Sección Portfolio / CV */
+    float: left;
+    width: 50%;
+}
+
+.column-2 {
+    /* Estilos Sección Portfolio / CV */
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    /* Estilos Sección Portfolio / CV */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    /* Estilos Sección Portfolio / CV */
+    background-color: white;
+    padding: 10px;
 }
 
 @media screen and (max-width: 665px) {
@@ -650,5 +780,76 @@ nav ul li a {
 @media screen and (max-width: 665px) {
     .nav-vertical {
         display: none;
+    }
+}
+
+/* Responsivo del Layout Sección Portfolio/CV */
+@media screen and (max-width: 900px) {
+    .column-1 {
+        width: 50%;
+    }
+}
+
+/* Responsivo del Layout Sección Portfolio/CV */
+@media screen and (max-width: 600px) {
+    .column-1 {
+        width: 100%;
+    }
+}
+
+/* Responsivo del Layout Sección Portfolio/CV */
+@media screen and (max-width: 900px) {
+    .column-2 {
+        width: 50%;
+    }
+}
+
+/* Responsivo del Layout Sección Portfolio/CV */
+@media screen and (max-width: 600px) {
+    .column-2 {
+        width: 100%;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 665px) {
+    .main-cv {
+        max-width: 90%;
+        padding-top: 40px;
+        padding-bottom: 30px;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 665px) {
+    #name-div {
+        font-size: 25px;
+        word-break: normal;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 665px) {
+    .contenedor-imagen {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 665px) {
+    #name-title-1 {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 665px) {
+    #name-title-2 {
+        font-size: 12px;
+        margin-bottom: 3px;
     }
 }
