@@ -794,6 +794,8 @@ nav ul li a {
 @media screen and (max-width: 665px) {
     #front-text {
         font-size: 25px;
+        text-align: justify;
+        hyphens: auto;
     }
 }
 
