@@ -97,10 +97,9 @@ body {
     /* DIV del Header Inferior */
     width: 79%;
     padding-top: 20px;
-    padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
-    align-items: end;
+    overflow: hidden;
 }
 
 #page-logo {
@@ -629,12 +628,6 @@ nav ul li a {
 }
 
 @media screen and (max-width: 665px) {
-    #page-logo {
-        height: 67px;
-    }
-}
-
-@media screen and (max-width: 665px) {
     #text-header {
         display: none;
     }
@@ -647,7 +640,7 @@ nav ul li a {
     }
 }
 
-@media screen and (max-width: 1481px) {
+@media screen and (max-width: 1562px) {
     #suscription-form {
         display: none;
     }
@@ -659,16 +652,33 @@ nav ul li a {
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 1365px) {
     #bottom-header-container {
         width: 90%;
     }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 1365px) {
     #main-box {
-        padding-top: 20px;
         max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #page-logo {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 492px) {
+    #page-logo {
+        height: 75px;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    #page-logo {
+        height: 65px;
     }
 }
 
@@ -782,12 +792,6 @@ nav ul li a {
 @media screen and (max-width: 665px) {
     .nav-vertical {
         display: none;
-    }
-}
-
-@media screen and (max-width: 1199px) {
-    #bottom-header-spacer {
-        height: 130px;
     }
 }
 
