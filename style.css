@@ -251,13 +251,13 @@ input[type=submit]:hover {
     /* Título del Texto Central */
     color: #444444;
     font-weight: 400;
-    font-size: 8vw;
+    font-size: 5.9vw;
     text-transform: uppercase;
     text-align: center;
     align-items: center;
     margin: auto;
     padding: 10px;
-    text-shadow: 6px 6px 5px rgb(151, 151, 151);
+    text-shadow: 3px 3px 5px rgb(151, 151, 151);
     cursor: default;
 }
 
