@@ -3,20 +3,36 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+    color: #525252;
+    transition: 0.4s;
+}
+
+a:hover {
+    transition: 0.3s;
+    color:#cecece;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', 'Barlow Condensed', 'Bebas Neue', sans-serif;
+    font-family: 'Barlow Condensed', 'Bebas Neue', 'Montserrat', sans-serif;
     color: #272727;
     background: white;
-    font-size: 1em;
-    line-height: 1.5em;
+}
+
+main {
+    /* DIV del Header Inferior */
+    background-image: url("images/degradation4.png");
+    background-repeat: repeat-x;
+    background-color: #ffffff;
 }
 
 #main-header {
     /* Header Superior Color Azul */
     background: #232323;
-    height: 54px;
+    height: 40px;
     width: 100%;
     display: flex;
 }
@@ -24,7 +40,7 @@ body {
 #top-header-left-side {
     /* Lado Izquierdo del Header Superior */
     width: 50%;
-    height: 54px;
+    height: 40px;
     float: left;
     display: flex;
     align-items: center;
@@ -34,26 +50,23 @@ body {
 
 #img-left-header {
     /* Ícono de Correo */
-    height: 35px;
     margin-left: 20px;
 }
 
 #mail-header {
     /* Texto de la Dirección de Correo */
     text-decoration: none;
-    font-size: 1.5em;
-    font-family: 'Montserrat';
+    font-size: 1.2em;
+    font-family: 'Barlow Condensed';
     margin-left: 10px;
 }
 
 #top-header-right-side {
     /* Lado Derecho del Header Superior */
     width: 50%;
-    height: 54px;
+    height: 40px;
     display: flex;
     justify-content: right;
-    align-items: center;
-    float: right;
 }
 
 #top-header-right-side-box {
@@ -67,10 +80,11 @@ body {
     /* Texto lateral RRSS */
     color: #8f8f8f;
     text-decoration: none;
-    font-family: 'Montserrat';
-    font-size: 1.5em;
+    font-family: 'Barlow Condensed';
+    font-size: 1.2em;
     margin-right: 10px;
     cursor: default;
+    align-items: center;
 }
 
 #social-media-icons-header {
@@ -160,13 +174,12 @@ input[type=submit]:hover {
 
 #main-box {
     /* Caja de Imagen Central */
-    background: white;
     max-width: 79%;
     display: block;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 
 #main-picture {
@@ -182,7 +195,8 @@ input[type=submit]:hover {
 #name-box {
     /* Caja del Nombre Central */
     background: white;
-    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #text-name {
@@ -201,10 +215,8 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
-    font-size: 36px;
-    font-family: 'Montserrat';
+    font-family: 'Barlow Condensed';
     color: #000000;
-    line-height: normal;
     cursor: default;
     line-height: 1.5;
 }
@@ -217,23 +229,47 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50px;
-    font-size: 36px;
-    font-family: 'Montserrat';
+    font-family: 'Barlow Condensed';
     color: #000000;
-    line-height: normal;
     cursor: default;
     line-height: 1.5;
 }
 
+#parrafo-main-mobile {
+    /* Caja de Párrafo Central 2 */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Barlow Condensed';
+    color: #000000;
+    cursor: default;
+    line-height: 1.5;
+    overflow-y: hidden;
+}
+
+#main-text-title {
+    /* Título del Texto Central */
+    color: #444444;
+    font-weight: 400;
+    font-size: 8vw;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 6px 6px 5px rgb(151, 151, 151);
+    cursor: default;
+}
+
 #parrafo-div {
     /* Caja del Texto Central 1 */
-    width: 69%;
-    font-size: 2vw;
+    width: 75%;
+    font-size: 2.5vw;
 }
 
 #picture-text {
     /* Texto Central 1 */
-    width: 31%;
+    width: 25%;
 }
 
 #picture-img {
@@ -244,13 +280,13 @@ input[type=submit]:hover {
 
 #parrafo-div-2 {
     /* Caja del Texto Central 2 */
-    width: 69%;
-    font-size: 2vw;
+    width: 75%;
+    font-size: 2.5vw;
 }
 
 #picture-text-2 {
     /* Texto Central 2 */
-    width: 31%;
+    width: 25%;
 }
 
 #picture-img-2 {
@@ -312,7 +348,7 @@ input[type=submit]:hover {
 #bottom-footer {
     /* Caja de Footer Inferior */
     background: #232323;
-    height: 385px;
+    height: 340px;
     background-image: url("images/degradation3.png");
     background-repeat: repeat-x;
 }
@@ -324,7 +360,7 @@ input[type=submit]:hover {
     margin-left: auto;
     margin-right: auto;
     max-width: fit-content;
-    padding: 30px;
+    padding: 10px;
 }
 
 #bottom-logo {
@@ -338,12 +374,14 @@ input[type=submit]:hover {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 #social-media-icons-footer {
     /* Íconos RRSS Footer */
-    margin-right: 10px;
+    margin-right: 15px;
     text-decoration: none;
 }
 
@@ -352,7 +390,7 @@ input[type=submit]:hover {
     max-width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #bottom-footer-links {
@@ -360,6 +398,10 @@ input[type=submit]:hover {
     font-size: 30px;
     margin-right: 20px;
     font-family: 'Barlow Condensed';
+}
+
+.navbar-nav {
+    line-height: 1.5em;
 }
 
 nav {
@@ -416,7 +458,7 @@ nav ul li a {
     -webkit-initial-letter: 4;
     initial-letter: 4;
     color: orange;
-    font-family: 'Montserrat';
+    font-family: 'Barlow Condensed';
     font-weight: bold;
     margin-right: .50em;
 }
@@ -469,9 +511,21 @@ nav ul li a {
     transition: 0.4s;
 }
 
+.fa-brands-top:hover {
+    /* Estilo Custom Fade-In Footer RRSS */
+    color: #535353;
+    transition: 0.3s;
+}
+
+.fa-brands-top {
+    /* Estilo Custom Fade-Out Footer RRSS */
+    color: #a5a5a5;
+    transition: 0.4s;
+}
+
 .nav-vertical {
     position: relative;
-    bottom: -2em;
+    bottom: -1.5em;
     right: 1em;
     float: right;
 }
@@ -493,7 +547,7 @@ nav ul li a {
 
 .top-container {
     background-color: #2f3b4f;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 10px;
     box-shadow: 6px 6px 8px #a5a5a5;
     background-image: url("images/bg-cv-top.png");
@@ -664,6 +718,12 @@ nav ul li a {
     }
 }
 
+@media screen and (max-width: 989px) {
+    #main-box {
+        padding-top: 50px;
+    }
+}
+
 @media screen and (max-width: 575px) {
     #page-logo {
         height: 80px;
@@ -682,22 +742,40 @@ nav ul li a {
     }
 }
 
-@media screen and (max-width: 665px) {
-    #text-name {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 1365px) {
     #name-box {
-        padding-top: 0px;
-        padding-bottom: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }
 
 @media screen and (max-width: 665px) {
     #parrafo-main {
-        padding-bottom: 5px;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    #parrafo-main-2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 666px) {
+    #parrafo-main-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    #front-text {
+        font-size: 2.8vw;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    #front-text-2 {
+        font-size: 2.8vw;
     }
 }
 
@@ -735,13 +813,13 @@ nav ul li a {
 
 @media screen and (max-width: 665px) {
     #bottom-footer {
-        height: 320px;
+        height: 300px;
     }
 }
 
 @media screen and (max-width: 533px) {
     #bottom-footer {
-        height: 290px;
+        height: 260px;
     }
 }
 
