@@ -332,6 +332,11 @@ input[type=submit]:hover {
     background-image: url("images/degradation2.png");
     background-repeat: repeat-x;
     height: 17px;
+    background-color: white;
+}
+
+footer {
+    background: #232323;
 }
 
 #top-footer {
@@ -410,6 +415,27 @@ input[type=submit]:hover {
     font-size: 30px;
     margin-right: 20px;
     font-family: 'Barlow Condensed';
+}
+
+#disclaimer-div {
+    /* DIV de Disclaimer */
+    background: #1a1a1a;
+    text-align: center;
+}
+
+#disclaimer-text {
+    /* Texto de Disclaimer */
+    color:#3d3d3d;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: default;
+}
+
+#degradation-div-disclaimer {
+    /* DIV de Imagen de Degradación del Disclaimer */
+    background-image: url("images/degradation5.png");
+    background-repeat: repeat-x;
+    height: 17px;
 }
 
 .navbar-nav {
@@ -537,7 +563,7 @@ nav ul li a {
 
 .nav-vertical {
     position: relative;
-    bottom: -1.5em;
+    bottom: -2.8em;
     right: 1em;
     float: right;
 }
@@ -901,6 +927,12 @@ nav ul li a {
 @media screen and (max-width: 665px) {
     .nav-vertical {
         display: none;
+    }
+}
+
+@media screen and (max-width: 471px) {
+    #disclaimer-text {
+        font-size: 13px;
     }
 }
 
