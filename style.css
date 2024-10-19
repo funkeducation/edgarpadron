@@ -634,6 +634,16 @@ nav ul li a {
     margin-bottom: 5px;
 }
 
+#title-h2-cv {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 50px;
+}
+
+#title-h3-cv {
+    /* Estilos Sección Portfolio / CV */
+    font-weight: 600;
+}
+
 #cv-links {
     /* Estilos Sección Portfolio / CV */
     color: #000000;
