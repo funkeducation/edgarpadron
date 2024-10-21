@@ -11,7 +11,7 @@ a {
 
 a:hover {
     transition: 0.3s;
-    color:#cecece;
+    color: #cecece;
 }
 
 body {
@@ -73,7 +73,7 @@ main {
     /* DIV Contenedor del Texto e Íconos RRSS */
     display: flex;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 #text-header {
@@ -82,14 +82,15 @@ main {
     text-decoration: none;
     font-family: 'Barlow Condensed';
     font-size: 1.2em;
-    margin-right: 10px;
+    margin-right: 5px;
     cursor: default;
     align-items: center;
 }
 
 #social-media-icons-header {
     /* Íconos RRSS */
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
     text-decoration: none;
 }
 
@@ -398,7 +399,8 @@ footer {
 
 #social-media-icons-footer {
     /* Íconos RRSS Footer */
-    margin-right: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
     text-decoration: none;
 }
 
@@ -425,7 +427,7 @@ footer {
 
 #disclaimer-text {
     /* Texto de Disclaimer */
-    color:#3d3d3d;
+    color: #3d3d3d;
     text-transform: uppercase;
     font-size: 15px;
     cursor: default;
@@ -725,6 +727,121 @@ nav ul li a {
     padding: 10px;
 }
 
+#blog-main {
+    /* Estilos Sección Blog */
+    background: white;
+    display: inline-flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    font-family: 'Barlow Condensed';
+    cursor: default;
+    width: 100%;
+}
+
+#blog-left-side {
+    /* Estilos Sección Blog */
+    width: 24%;
+}
+
+#blog-center-divider {
+    /* Estilos Sección Blog */
+    width: 2%;
+}
+
+#blog-right-side {
+    /* Estilos Sección Blog */
+    width: 74%;
+}
+
+#blog-left-side-content {
+    /* Estilos Sección Blog */
+    width: 100%;
+    height: auto;
+    background-color: #2f3b4f;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 6px 6px 8px #a5a5a5;
+    background-image: url("images/bg-blog-top.png");
+}
+
+#blog-right-side-content {
+    /* Estilos Sección Blog */
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 6px 6px 8px #a5a5a5;
+}
+
+.blog-contenedor-imagen {
+    /* Estilos Sección Blog */
+    width: 90%;
+    overflow: hidden;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    margin-bottom: 30px;
+}
+
+.blog-contenedor-imagen>img {
+    /* Estilos Sección Blog */
+    width: 100%;
+    height: 100%;
+}
+
+#blog-left-side-rrss {
+    /* Estilos Sección Blog */
+    background-color: #fafafa;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#social-media-container {
+    /* Estilos Sección Blog */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu-blog-title {
+    /* Estilos Sección Blog */
+    font-size: 50px;
+    font-weight: 600;
+    color: #4d4d4d;
+    overflow: hidden;
+}
+
+#menu-blog-text {
+    /* Estilos Sección Blog */
+    font-size: 20px;
+    color: #4d4d4d;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+#h1-blog {
+    /* Estilos Sección Blog */
+    font-size: 50px;
+}
+
+#h2-blog {
+    /* Estilos Sección Blog */
+    font-size: 40px;
+}
+
+#h3-blog {
+    /* Estilos Sección Blog */
+    font-size: 30px;
+}
+
+#p-blog {
+    /* Estilos Sección Blog */
+    font-size: 25px;
+}
+
 @media screen and (max-width: 665px) {
     #top-header-left-side {
         display: none;
@@ -1005,5 +1122,65 @@ nav ul li a {
     #name-title-2 {
         font-size: 12px;
         margin-bottom: 3px;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #blog-main {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #blog-left-side {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #blog-right-side {
+        width: 100%;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    .blog-contenedor-imagen {
+        width: 90%;
+        max-width: 200px;
+        margin-bottom: 0;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #responsive-hr {
+        display: none;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #menu-blog-text {
+        display: none;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #blog-left-side-rrss {
+        display: none;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #menu-blog-title {
+        text-align: center;
     }
 }
