@@ -125,6 +125,7 @@ main {
   height: 89px;
   align-items: end;
   margin-right: 20px;
+  cursor: grab;
 }
 
 #bottom-header-left-menu {
@@ -384,6 +385,7 @@ footer {
   margin-right: auto;
   max-width: fit-content;
   padding: 10px;
+  cursor: grab;
 }
 
 #bottom-logo {
