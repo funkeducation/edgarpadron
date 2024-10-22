@@ -1,0 +1,11 @@
+{
+  "name": "edgarpadron",
+  "version": "1.0.0",
+  "description": "Personal Website\r Éste es mi sitio web personal, proyecto para la comisión #59930 de Coderhouse.\r Edgar Alfonso Padrón Centeno.\r 2024.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
