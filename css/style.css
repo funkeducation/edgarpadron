@@ -351,6 +351,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/topf-bg.png");
+  background-repeat: repeat-x;
 }
 
 #top-footer-text {
