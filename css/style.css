@@ -851,6 +851,111 @@ nav ul li a {
   font-size: 25px;
 }
 
+#main-box-container {
+  /* Estilos Sección Contacto */
+  background: white;
+  display: inline-flex;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+  font-family: "Barlow Condensed";
+  cursor: default;
+  width: 100%;
+}
+
+#contact-left-side {
+  /* Estilos Sección Contacto */
+  width: 50%;
+}
+
+#contact-right-side {
+  /* Estilos Sección Contacto */
+  width: 50%;
+  background-image: url("../images/map_location.png");
+  height: 800px;
+  background-attachment: local;
+  background-position: center;
+  box-shadow: 30px 30px 45px #888888;
+}
+
+/* Estilos Sección Contacto */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Estilos Sección Contacto */
+input[type=submit] {
+  background-color: #464646;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Estilos Sección Contacto */
+input[type=submit]:hover {
+  background-color: #9c9c9c;
+}
+
+/* Estilos Sección Contacto */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Estilos Sección Contacto */
+#form-size {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1365px) {
+  #main-box-container {
+    display: inline-block;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 1365px) {
+  #contact-right-side {
+    box-shadow: 20px 20px 35px #888888;
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1365px) {
+  #contact-left-side {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1365px) {
+  #form-size {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 665px) {
+  #form-size {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 665px) {
+  #contact-right-side {
+    width: 90%;
+    height: 400px;
+  }
+}
 @media screen and (max-width: 665px) {
   #top-header-left-side {
     display: none;
