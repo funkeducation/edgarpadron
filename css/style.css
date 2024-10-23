@@ -518,6 +518,34 @@ nav ul li a {
   padding-left: 0;
 }
 
+#submit-navbar-button {
+  /* Estilos del NAVBAR Subscription Form*/
+  border-color: #dbdbdb;
+  height: 30px;
+  padding: 0 8px 0 8px;
+  color: #858585;
+}
+
+#submit-navbar-button:hover {
+  /* Estilos del NAVBAR Subscription Form*/
+  background-color: #e7e7e7;
+}
+
+.me-2 {
+  /* Estilos del NAVBAR Subscription Form*/
+  margin-right: 0 !important;
+}
+
+.form-control {
+  /* Estilos del NAVBAR Subscription Form*/
+  border-radius: 6px 0 0 6px;
+}
+
+.btn {
+  /* Estilos del NAVBAR Subscription Form*/
+  border-radius: 0 6px 6px 0;
+}
+
 .subhead::first-letter {
   /* Estilo de primera letra grande */
   -webkit-initial-letter: 4;
@@ -915,11 +943,13 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   width: 100%;
+  transition: 0.4s;
 }
 
 /* Estilos Sección Contacto */
 input[type=submit]:hover {
   background-color: #9c9c9c;
+  transition: 0.3s;
 }
 
 /* Estilos Sección Contacto */
@@ -988,7 +1018,7 @@ input[type=submit]:hover {
     width: 100%;
   }
 }
-@media screen and (max-width: 1562px) {
+@media screen and (max-width: 1448px) {
   #suscription-form {
     display: none;
   }
@@ -1278,7 +1308,7 @@ input[type=submit]:hover {
 /* Diseño responsivo Navbar de Bootstrap */
 @media screen and (min-width: 1015px) {
   #suscription-form {
-    margin-top: 50px;
+    margin-top: 55px;
   }
 }
 /* Diseño responsivo Navbar de Bootstrap */
@@ -1292,6 +1322,18 @@ input[type=submit]:hover {
   #bottom-header-container {
     padding-top: 0px;
   }
+}
+#email-newsletter-component {
+  border-color: #ececec;
+  border-right: white;
+  height: 30px;
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  padding-top: 4px;
+  width: 185px;
 }
 
 /*# sourceMappingURL=style.css.map */
