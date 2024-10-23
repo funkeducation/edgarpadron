@@ -488,12 +488,28 @@ nav ul li a {
     text-align: right;
 }
 
-.navbar-nav>li>a {
+.navbar-nav > li > a {
     /* Estilos del NAVBAR NAV*/
     padding: 0;
     margin: 0;
     vertical-align: bottom;
     font-size: 30px;
+}
+
+.navbar-nav > li {
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+.navbar-toggler {
+    /* Estilos del NAVBAR Toggler*/
+    margin-top: 40px;
+    margin-right: 4px;
+}
+
+.nav-item {
+    /* Estilos del NAVBAR Toggler*/
+    margin-right: 4px;
 }
 
 .container-fluid {
@@ -962,17 +978,6 @@ input[type=text], select, textarea {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 665px) {
     #top-header-left-side {
         display: none;
@@ -1313,5 +1318,26 @@ input[type=text], select, textarea {
 @media screen and (max-width: 1000px) {
     #menu-blog-title {
         text-align: center;
+    }
+}
+
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (max-width: 1014px) and (min-width: 576px) {
+    .navbar .container-fluid {
+        flex-direction: column;
+    }
+}
+
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (min-width: 1015px) {
+    .navbar-nav {
+        margin-top: 50px;
+    }
+}
+
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (min-width: 1015px) {
+    #suscription-form {
+        margin-top: 50px;
     }
 }

@@ -496,6 +496,22 @@ nav ul li a {
   font-size: 30px;
 }
 
+.navbar-nav > li {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.navbar-toggler {
+  /* Estilos del NAVBAR Toggler*/
+  margin-top: 40px;
+  margin-right: 4px;
+}
+
+.nav-item {
+  /* Estilos del NAVBAR Toggler*/
+  margin-right: 4px;
+}
+
 .container-fluid {
   /* Padding Custom del NAV Bootstrap */
   padding-right: 0;
@@ -1245,6 +1261,24 @@ input[type=submit]:hover {
 @media screen and (max-width: 1000px) {
   #menu-blog-title {
     text-align: center;
+  }
+}
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (max-width: 1014px) and (min-width: 576px) {
+  .navbar .container-fluid {
+    flex-direction: column;
+  }
+}
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (min-width: 1015px) {
+  .navbar-nav {
+    margin-top: 50px;
+  }
+}
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (min-width: 1015px) {
+  #suscription-form {
+    margin-top: 50px;
   }
 }
 
