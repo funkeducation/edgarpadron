@@ -1287,5 +1287,11 @@ input[type=submit]:hover {
     margin-top: 30px;
   }
 }
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (max-width: 1014px) {
+  #bottom-header-container {
+    padding-top: 0px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
