@@ -526,6 +526,20 @@ nav ul li a {
     color: #858585;
 }
 
+#email-newsletter-component {
+    /* Estilos del NAVBAR Subscription Form*/
+    border-color: #ececec;
+    border-right: white;
+    height: 30px;
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    padding-top: 4px;
+    width: 185px;
+}
+
 #submit-navbar-button:hover {
     /* Estilos del NAVBAR Subscription Form*/
     background-color: #e7e7e7;
@@ -1386,15 +1400,9 @@ input[type=text], select, textarea {
     }
 }
 
-#email-newsletter-component {
-    border-color: #ececec;
-    border-right: white;
-    height: 30px;
-    outline:none !important;
-    outline-width: 0 !important;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    padding-top: 4px;
-    width: 185px;
+#error-page-button{
+    border-radius: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-width: 1px;
 }
