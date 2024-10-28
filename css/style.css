@@ -200,6 +200,12 @@ input[type=submit]:hover {
   transition: 0.3s;
 }
 
+.fa-brands {
+  /* Estilo Custom Fade-Out Header RRSS */
+  color: #555555;
+  transition: 0.4s;
+}
+
 .navbar-nav {
   line-height: 1.5em;
 }
