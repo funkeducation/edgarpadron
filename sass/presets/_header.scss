@@ -1,0 +1,183 @@
+#main-header {
+    /* Header Superior Color Gris */
+
+    background: #232323;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-image: url("../images/tf-bg.png");
+    background-repeat: repeat-x;
+}
+
+#top-header-left-side {
+    /* Lado Izquierdo del Header Superior */
+    width: 50%;
+    height: 40px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #8f8f8f;
+}
+
+#img-left-header {
+    /* Ícono de Correo */
+    margin-left: 20px;
+}
+
+#mail-header {
+    /* Texto de la Dirección de Correo */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Barlow Condensed';
+    margin-left: 10px;
+}
+
+.bfl2-hover:hover {
+    /* Efecto de enlace e-mail fade-in */
+    color: #535353;
+    transition: 0.3s;
+}
+
+.bfl2-hover {
+    /* Efecto de enlace e-mail fade-out */
+    color: #8f8f8f;
+    transition: 0.4s;
+}
+
+#top-header-right-side {
+    /* Lado Derecho del Header Superior */
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+#top-header-right-side-box {
+    /* DIV Contenedor del Texto e Íconos RRSS */
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#text-header {
+    /* Texto lateral RRSS */
+    color: #8f8f8f;
+    text-decoration: none;
+    font-family: 'Barlow Condensed';
+    font-size: 1.2em;
+    margin-right: 5px;
+    cursor: default;
+    align-items: center;
+}
+
+#social-media-icons-header {
+    /* Íconos RRSS */
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.fa-brands-top:hover {
+    /* Estilo Custom Fade-In Íconos RRSS */
+    color: #535353;
+    transition: 0.3s;
+}
+
+.fa-brands-top {
+    /* Estilo Custom Fade-Out Íconos RRSS */
+    color: #a5a5a5;
+    transition: 0.4s;
+}
+
+#img-right-header {
+    /* Íconos de RRSS */
+    height: 35px;
+    margin-right: 8px;
+}
+
+#bottom-header {
+    /* DIV del Header Inferior */
+    width: 100%;
+    min-height: auto;
+    background-image: url("../images/degradation.png");
+    background-repeat: repeat-x;
+}
+
+#bottom-header-container {
+    /* DIV del Header Inferior */
+    width: 79%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+#page-logo {
+    /* Imagen del Logo */
+    height: 89px;
+    align-items: end;
+    margin-right: 20px;
+    cursor: grab;
+}
+
+#bottom-header-left-menu {
+    /* Menú NAV de Página */
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: end;
+}
+
+#menu-header {
+    /* Estilos del Texto del Menú */
+    color: #444444;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Barlow Condensed';
+    margin-right: 10px;
+}
+
+#bottom-header-right-side {
+    /* Lado Derecho del Header Inferior */
+    width: 280px;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    float: right;
+}
+
+input[type=text] {
+    /* Estilos del Input de Suscribir */
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+input[type=submit] {
+    /* Estilos del Botón de Suscribir */
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #d4d4d4;
+    border-radius: 0 4px 4px 0;
+}
+
+input[type=submit]:hover {
+    /* Efecto de Cambio de Color del Botón Suscribir */
+    opacity: 0.8;
+}
+
+.fa-brands:hover {
+    /* Estilo Custom Fade-In Header RRSS */
+    color: #686868;
+    transition: 0.3s;
+}
+
+.fa-brands {
+    /* Estilo Custom Fade-Out Header RRSS */
+    color: #3b3b3b;
+    transition: 0.4s;
+}

@@ -1,0 +1,171 @@
+main {
+    /* DIV del Header Inferior */
+    background-image: url("../images/degradation4.png");
+    background-repeat: repeat-x;
+    background-color: #ffffff;
+}
+
+#main-box {
+    /* Caja de Imagen Central */
+    max-width: 79%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+
+#main-picture {
+    /* Estilos de Imagen Caja de Imagen Central */
+    border-radius: 15px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#name-box {
+    /* Caja del Nombre Central */
+    background: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#text-name {
+    /* Estilos de Imagen Nombre Central */
+    width: 100%;
+    cursor: default;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#parrafo-main {
+    /* Caja de Párrafo Central */
+    background: white;
+    display: inline-flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    font-family: 'Barlow Condensed';
+    color: #000000;
+    cursor: default;
+    line-height: 1.5;
+}
+
+#parrafo-main-2 {
+    /* Caja de Párrafo Central 2 */
+    background: white;
+    display: inline-flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    font-family: 'Barlow Condensed';
+    color: #000000;
+    cursor: default;
+    line-height: 1.5;
+}
+
+#parrafo-main-mobile {
+    /* Caja de Párrafo Central 2 */
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Barlow Condensed';
+    color: #000000;
+    cursor: default;
+    line-height: 1.5;
+    overflow-y: hidden;
+}
+
+#main-text-title {
+    /* Título del Texto Central */
+    color: #444444;
+    font-weight: 400;
+    font-size: 5.9vw;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    text-shadow: 3px 3px 5px rgb(151, 151, 151);
+    cursor: default;
+}
+
+#parrafo-div {
+    /* Caja del Texto Central 1 */
+    width: 75%;
+    font-size: 2.5vw;
+}
+
+#parrafo-div-2 {
+    /* Caja del Texto Central 2 */
+    width: 75%;
+    font-size: 2.5vw;
+}
+
+#parrafo-div-3 {
+    /* Caja del Texto Central 2 */
+    width: 75%;
+    font-size: 2.5vw;
+}
+
+#picture-text {
+    /* Texto Central 1 */
+    width: 25%;
+}
+
+#picture-img {
+    /* Imagen del Texto Central 1 */
+    width: 100%;
+    height: auto;
+}
+
+#parrafo-div-2 {
+    /* Caja del Texto Central 2 */
+    width: 75%;
+    font-size: 2.5vw;
+}
+
+#picture-text-2 {
+    /* Texto Central 2 */
+    width: 25%;
+}
+
+#picture-img-2 {
+    /* Imagen del Texto Central 2 */
+    width: 100%;
+    height: auto;
+}
+
+#h5-style {
+    /* Estilo H5 del Carrusel */
+    color: #000000;
+}
+
+#front-text {
+    /* Estilos del Texto Central 1 */
+    text-align: left;
+}
+
+#front-text-2 {
+    /* Estilos del Texto Central 2 */
+    text-align: right;
+}
+
+#h5-p-style {
+    /* Estilo P H5 del Carrusel */
+    color: #000000;
+}
+
+.subhead::first-letter {
+    /* Estilo de primera letra grande */
+    -webkit-initial-letter: 4;
+    initial-letter: 4;
+    color: orange;
+    font-family: 'Barlow Condensed';
+    font-weight: bold;
+    margin-right: .50em;
+}

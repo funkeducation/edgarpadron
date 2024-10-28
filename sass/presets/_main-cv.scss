@@ -1,0 +1,145 @@
+/* Estilos Sección Portfolio / CV */
+* {
+    box-sizing: border-box;
+}
+
+.main-cv {
+    /* Estilos Sección Portfolio / CV */
+    max-width: 79%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    cursor: default;
+    font-size: 23px;
+}
+
+#name-div {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 40px;
+    word-break: normal;
+    text-align: center;
+    color: #e0e0e0;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#name-title-1 {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 20px;
+    word-break: normal;
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+#name-title-2 {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 15px;
+    word-break: normal;
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+}
+
+#title-h2-cv {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 50px;
+}
+
+#title-h3-cv {
+    /* Estilos Sección Portfolio / CV */
+    font-size: 26px;
+    font-weight: 600;
+}
+
+#cv-links {
+    /* Estilos Sección Portfolio / CV */
+    color: #000000;
+    text-decoration: none;
+}
+
+#cv-pics {
+    /* Estilos Sección Portfolio / CV */
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#cv-pics:hover {
+    /* Estilos Sección Portfolio / CV */
+    opacity: 0.6;
+    transition: 0.4s;
+}
+
+.row {
+    /* Estilos Sección Portfolio / CV */
+    margin: 8px -16px;
+}
+
+.row,
+.row>.column {
+    /* Estilos Sección Portfolio / CV */
+    padding: 8px;
+}
+
+.column-1 {
+    /* Estilos Sección Portfolio / CV */
+    float: left;
+    width: 50%;
+}
+
+.column-2 {
+    /* Estilos Sección Portfolio / CV */
+    float: left;
+    width: 25%;
+}
+
+.row:after {
+    /* Estilos Sección Portfolio / CV */
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    /* Estilos Sección Portfolio / CV */
+    background-color: white;
+    padding: 10px;
+}
+
+.top-container {
+    /* Estilos Sección Portfolio / CV */
+    background-color: #2f3b4f;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 6px 6px 8px #a5a5a5;
+    background-image: url("../images/bg-cv-top.png");
+}
+
+.contenedor-imagen {
+    /* Estilos Sección Portfolio / CV */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-imagen>img {
+    /* Estilos Sección Portfolio / CV */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.youtube-video {
+    /* Estilos Sección Portfolio / CV */
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    border-radius: 10px;
+}

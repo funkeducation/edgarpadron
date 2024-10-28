@@ -1,0 +1,166 @@
+#degradation-div {
+    /* DIV de Imagen de Degradación del Top Footer */
+    background-image: url("../images/degradation2.png");
+    background-repeat: repeat-x;
+    height: 17px;
+    background-color: white;
+}
+
+footer {
+    background: #232323;
+}
+
+#top-footer {
+    /* Caja de Footer Superior */
+    background: #EBEBEB;
+    height: 54px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/topf-bg.png");
+    background-repeat: repeat-x;
+}
+
+#top-footer-text {
+    /* Estilos de Texto Footer Superior */
+    background: #FFFFFF00;
+    color: #606060;
+    font-family: 'Aboreto';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.3;
+    letter-spacing: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#bottom-footer {
+    /* Caja de Footer Inferior */
+    background: #232323;
+    height: 340px;
+    background-image: url("../images/degradation3.png");
+    background-repeat: repeat-x;
+}
+
+#bottom-footer-logo {
+    /* Caja del Logo Footer Inferior */
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: fit-content;
+    padding: 10px;
+    cursor: grab;
+}
+
+#bottom-logo {
+    /* Estilos del Logo Footer Inferior */
+    width: 100%;
+    align-items: center;
+}
+
+#social-media-footer {
+    /* Caja de RRSS del Footer Inferior */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-media-icons-footer {
+    /* Íconos RRSS Footer */
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    text-decoration: none;
+}
+
+#bottom-footer-nav {
+    /* Estilos del Logo Footer Inferior */
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+#bottom-footer-links {
+    /* Enlaces del NAV del Footer */
+    font-size: 30px;
+    margin-right: 20px;
+    font-family: 'Barlow Condensed';
+}
+
+#disclaimer-div {
+    /* DIV de Disclaimer */
+    background: #1a1a1a;
+    text-align: center;
+    background-image: url("../images/tf-bg.png");
+    background-repeat: repeat-x;
+}
+
+#disclaimer-text {
+    /* Texto de Disclaimer */
+    color: #474747;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: default;
+}
+
+#degradation-div-disclaimer {
+    /* DIV de Imagen de Degradación del Disclaimer */
+    background-image: url("../images/degradation5.png");
+    background-repeat: repeat-x;
+    height: 17px;
+}
+
+.bfl-hover:hover {
+    /* Efecto de enlace nav fade-in */
+    color: #8f8f8f;
+    transition: 0.3s;
+}
+
+.bfl-hover {
+    /* Efecto de enlace nav fade-out */
+    color: #4d4d4d;
+    transition: 0.4s;
+}
+
+.fa-brands-footer:hover {
+    /* Estilo Custom Fade-In Footer RRSS */
+    color: #535353;
+    transition: 0.3s;
+}
+
+.fa-brands-footer {
+    /* Estilo Custom Fade-Out Footer RRSS */
+    color: #a5a5a5;
+    transition: 0.4s;
+}
+
+.boton-hover {
+    /* Estilo Custom Botón Go to the Top */
+    width: 64px;
+    height: 64px;
+    transition: 0.4s;
+}
+
+.imglink:hover .boton-hover {
+    /* Estilo Custom Botón Go to the Top */
+    opacity: 0.4;
+    transition: 0.3s;
+}
+
+.nav-vertical {
+    /* Estilo Custom Botón Go to the Top */
+    position: relative;
+    bottom: -2.8em;
+    right: 1em;
+    float: right;
+}
+
+.btn-nav-vertical {
+    /* Estilo Custom Botón Go to the Top */
+    display: block;
+}
