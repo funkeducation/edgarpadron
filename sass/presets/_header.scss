@@ -78,16 +78,16 @@
     text-decoration: none;
 }
 
-.fa-brands-top:hover {
-    /* Estilo Custom Fade-In Íconos RRSS */
-    color: #535353;
-    transition: 0.3s;
-}
-
 .fa-brands-top {
     /* Estilo Custom Fade-Out Íconos RRSS */
-    color: #a5a5a5;
+    color: #535353;
     transition: 0.4s;
+}
+
+.fa-brands-top:hover {
+    /* Estilo Custom Fade-In Íconos RRSS */
+    color: #a5a5a5;
+    transition: 0.3s;
 }
 
 #img-right-header {
@@ -168,16 +168,4 @@ input[type=submit] {
 input[type=submit]:hover {
     /* Efecto de Cambio de Color del Botón Suscribir */
     opacity: 0.8;
-}
-
-.fa-brands:hover {
-    /* Estilo Custom Fade-In Header RRSS */
-    color: #686868;
-    transition: 0.3s;
-}
-
-.fa-brands {
-    /* Estilo Custom Fade-Out Header RRSS */
-    color: #555555;
-    transition: 0.4s;
 }

@@ -127,16 +127,16 @@ footer {
     transition: 0.4s;
 }
 
-.fa-brands-footer:hover {
-    /* Estilo Custom Fade-In Footer RRSS */
-    color: #535353;
-    transition: 0.3s;
-}
-
 .fa-brands-footer {
     /* Estilo Custom Fade-Out Footer RRSS */
     color: #a5a5a5;
     transition: 0.4s;
+}
+
+.fa-brands-footer:hover {
+    /* Estilo Custom Fade-In Footer RRSS */
+    color: #535353;
+    transition: 0.3s;
 }
 
 .boton-hover {
