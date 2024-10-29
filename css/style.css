@@ -851,6 +851,36 @@ input[type=submit]:hover {
   margin-right: auto;
 }
 
+#about-left-side {
+  /* Estilos Sección Sobre Mí */
+  width: 40%;
+  background-image: url("../images/edgar2.png");
+  height: 800px;
+  background-attachment: local;
+  background-position: center;
+}
+
+#about-right-side {
+  /* Estilos Sección Sobre Mí */
+  width: 60%;
+}
+
+#about-text-size {
+  /* Estilos Sección Sobre Mí */
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-location {
+  /* Estilos Sección Sobre Mí */
+  text-justify: inter-word;
+}
+
 #degradation-div {
   /* DIV de Imagen de Degradación del Top Footer */
   background-image: url("../images/degradation2.png");
