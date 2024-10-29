@@ -701,13 +701,31 @@ main {
   padding: 10px;
 }
 
-.top-container {
+.full-container {
   /* Estilos Sección Portfolio / CV */
+  width: 100%;
+  display: inline-flex;
   background-color: #2f3b4f;
   border-radius: 15px;
   padding: 10px;
   box-shadow: 6px 6px 8px #a5a5a5;
   background-image: url("../images/bg-cv-top.png");
+  margin-bottom: 34px;
+}
+
+.left-container {
+  /* Estilos Sección Portfolio / CV */
+  width: 30%;
+}
+
+.center-container {
+  /* Estilos Sección Portfolio / CV */
+  width: 40%;
+}
+
+.right-container {
+  /* Estilos Sección Portfolio / CV */
+  width: 30%;
 }
 
 .contenedor-imagen {
@@ -1236,6 +1254,30 @@ footer {
     word-break: normal;
     font-weight: 600;
     margin-bottom: 10px;
+  }
+}
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 965px) {
+  .full-container {
+    justify-content: center;
+  }
+}
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 1504px) {
+  .left-container {
+    display: none;
+  }
+}
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 1504px) {
+  .center-container {
+    width: 100%;
+  }
+}
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 1504px) {
+  .right-container {
+    display: none;
   }
 }
 /* Diseño responsivo Sección Portfolio/CV */

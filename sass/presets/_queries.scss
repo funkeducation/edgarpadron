@@ -301,6 +301,34 @@
 }
 
 /* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 965px) {
+    .full-container {
+        justify-content: center;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 1504px) {
+    .left-container {
+        display: none;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 1504px) {
+    .center-container {
+        width: 100%;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
+@media screen and (max-width: 1504px) {
+    .right-container {
+        display: none;
+    }
+}
+
+/* Diseño responsivo Sección Portfolio/CV */
 @media screen and (max-width: 665px) {
     .contenedor-imagen {
         width: 200px;
