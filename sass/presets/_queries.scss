@@ -370,6 +370,21 @@
     }
 }
 
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 1000px) {
+    #h1-blog {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+/* Diseño responsivo Sección Blog */
+@media screen and (max-width: 665px) {
+    #centered-img {
+        width: 100%;
+    }
+}
+
 /* Diseño responsivo Navbar de Bootstrap */
 @media screen and (max-width: 1014px) and (min-width: 576px) {
     .navbar .container-fluid {
