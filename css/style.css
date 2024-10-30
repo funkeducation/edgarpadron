@@ -851,34 +851,58 @@ input[type=submit]:hover {
   margin-right: auto;
 }
 
+#about-main-box {
+  /* Caja de Imagen Central */
+  max-width: 79%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+#about-mb-container {
+  /* Estilos Sección Contacto */
+  background: white;
+  display: inline-flex;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+  font-family: "Barlow Condensed";
+  cursor: default;
+  width: 100%;
+}
+
 #about-left-side {
-  /* Estilos Sección Sobre Mí */
-  width: 40%;
+  /* Estilos Sección Contacto */
+  width: 600px;
   background-image: url("../images/edgar2.png");
-  height: 800px;
+  height: 900px;
   background-attachment: local;
   background-position: center;
 }
 
 #about-right-side {
-  /* Estilos Sección Sobre Mí */
+  /* Estilos Sección Contacto */
   width: 60%;
 }
 
-#about-text-size {
-  /* Estilos Sección Sobre Mí */
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  height: 800px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#about-divider {
+  /* Estilos Sección Contacto */
+  width: 5%;
 }
 
-#text-location {
-  /* Estilos Sección Sobre Mí */
-  text-justify: inter-word;
+/* Estilos Sección Contacto */
+#about-form-size {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilos Sección Contacto */
+#about-font {
+  font-size: 40px;
 }
 
 #degradation-div {
@@ -1056,43 +1080,6 @@ footer {
   border-width: 1px;
 }
 
-@media screen and (max-width: 1365px) {
-  #main-box-container {
-    display: inline-block;
-    margin-top: 0px;
-  }
-}
-@media screen and (max-width: 1365px) {
-  #contact-right-side {
-    box-shadow: 20px 20px 35px #888888;
-    width: 80%;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 1365px) {
-  #contact-left-side {
-    margin-bottom: 60px;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1365px) {
-  #form-size {
-    width: 90%;
-  }
-}
-@media screen and (max-width: 665px) {
-  #form-size {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 665px) {
-  #contact-right-side {
-    width: 90%;
-    height: 400px;
-  }
-}
 @media screen and (max-width: 665px) {
   #top-header-left-side {
     display: none;
@@ -1436,6 +1423,102 @@ footer {
 @media screen and (max-width: 1014px) {
   #bottom-header-container {
     padding-top: 0px;
+  }
+}
+/* Diseño responsivo Sección Contacto */
+@media screen and (max-width: 1365px) {
+  #main-box-container {
+    display: inline-block;
+    margin-top: 0px;
+  }
+}
+/* Diseño responsivo Sección Contacto */
+@media screen and (max-width: 1365px) {
+  #contact-right-side {
+    box-shadow: 20px 20px 35px #888888;
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* Diseño responsivo Sección Contacto */
+@media screen and (max-width: 1365px) {
+  #contact-left-side {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+}
+/* Diseño responsivo Sección Contacto */
+@media screen and (max-width: 1365px) {
+  #form-size {
+    width: 60%;
+  }
+}
+/* Diseño responsivo Sección Contacto */
+@media screen and (max-width: 575px) {
+  #form-size {
+    width: 100%;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 1365px) {
+  #about-mb-container {
+    display: inline-block;
+    margin-top: 0px;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 1365px) {
+  #about-left-side {
+    width: 600px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: local;
+    background-position: top;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 700px) {
+  #about-left-side {
+    width: 100%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-attachment: local;
+    background-position: top;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 1365px) {
+  #about-right-side {
+    margin-top: 60px;
+    width: 100%;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 1365px) {
+  #about-form-size {
+    width: 60%;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 575px) {
+  #about-form-size {
+    width: 100%;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 575px) {
+  #about-font {
+    font-size: 25px;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 1365px) {
+  #about-mb-container {
+    padding-bottom: 30px;
   }
 }
 
