@@ -6,6 +6,6 @@ Edgar Alfonso Padrón Centeno.
 
 https://edgarpadron.me
 Sitio Web Responsive. HTML y CSS avanzado. SASS funcionando.
-Secciones: 'Index', 'Blog', 'Portfolio' y 'Contacto' funcionales para 2da pre-entrega.
+Todas las secciones funcionales para 3era pre-entrega.
 Página 404.html funcional.
 Repo conectada a Visual Studio Code, funcionando git.
