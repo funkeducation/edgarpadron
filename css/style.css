@@ -768,10 +768,10 @@ main {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 12px #ffffff, inset 0 0 12px #ffffff;
-  -webkit-animation: pulso 2s linear 1s infinite;
+  animation: pulso 2s linear 1s infinite;
 }
 
-@-webkit-keyframes pulso {
+@keyframes pulso {
   0% {
     box-shadow: 0 0 12px #ffffff, inset 0 0 12px #ffffff;
   }

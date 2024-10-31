@@ -9,3 +9,4 @@ Sitio Web Responsive. HTML y CSS avanzado. SASS funcionando.
 Todas las secciones funcionales para 3era pre-entrega.
 Página 404.html funcional.
 Repo conectada a Visual Studio Code, funcionando git.
+Animación Foto Personal en sección 'Portfolio/CV'.
