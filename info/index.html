@@ -110,17 +110,14 @@
             <div class="container">
               <form action="https://formspree.io/f/xpwzqgrp" method="POST">
                 <label for="fname">Nombre:</label>
-                <input name="Nombre:" type="text" class="form-control" placeholder="Ingresa tu nombre"
-                  aria-label="Nombre" required>
+                <input name="Nombre:" id="fname" type="text" class="form-control" placeholder="Ingresa tu nombre" aria-label="Nombre" autocomplete="on" required>
                 <label for="lname">Apellido:</label>
-                <input name="Apellido:" type="text" class="form-control" placeholder="Ingresa tu apellido"
-                  aria-label="Apellido" required>
-                <label for="lname">Email:</label>
-                <input name="E-Mail:" type="email" class="form-control" placeholder="Ingresa tu e-mail"
-                  aria-label="E-Mail" required>
+                <input name="Apellido:" id="lname" type="text" class="form-control" placeholder="Ingresa tu apellido" aria-label="Apellido" autocomplete="on" required>
+                <label for="email">Email:</label>
+                <input name="E-Mail:" id="email" type="email" class="form-control" placeholder="Ingresa tu e-mail" aria-label="E-Mail" autocomplete="on" required>
                 <br>
-                <label for="exampleFormControlTextarea1">Déjame un mensaje:</label>
-                <textarea name="Mensaje:" class="form-control" rows="5" required></textarea>
+                <label for="message">Mensaje:</label>
+                <textarea name="Mensaje:" id="message" class="form-control" placeholder="Escríbeme un mensaje..." rows="5" required></textarea>
                 <input type="submit" value="Enviar">
               </form>
             </div>
