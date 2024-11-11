@@ -18,7 +18,14 @@
     }
 }
 
-@media screen and (max-width: 1448px) {
+/* @media screen and (max-width: 1448px) {
+    #suscription-form {
+        display: none;
+    }
+} */
+
+@media screen and (max-width: 5000px) {
+    /* Botón Suscripción Desactivado */
     #suscription-form {
         display: none;
     }
