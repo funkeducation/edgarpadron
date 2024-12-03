@@ -1,6 +1,6 @@
 # Sitio Web Personal Edgar Padrón
 
-_Éste repositorio ha sido creado para el proyecto de Desarrollo Web, de la comisión #59930 de Coderhouse.
+_Éste repositorio ha sido creado para el proyecto de Desarrollo Web, de la comisión #59930 de Coderhouse._
 
 ## Autor
 
