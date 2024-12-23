@@ -1262,7 +1262,7 @@ footer {
 }
 @media screen and (max-width: 665px) {
   #bottom-footer-links {
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 10px;
   }
 }
