@@ -1631,6 +1631,18 @@ footer {
   }
 }
 /* Diseño responsivo Sección Inicio */
+@media screen and (min-width: 545px) and (max-width: 1364px) {
+  #inicio-left-side {
+    margin-top: 60px;
+  }
+}
+/* Diseño responsivo Sección Inicio */
+@media screen and (min-width: 545px) and (max-width: 1364px) {
+  #inicio-right-side {
+    margin-top: 60px;
+  }
+}
+/* Diseño responsivo Sección Inicio */
 @media screen and (max-width: 1365px) {
   #inicio-right-side {
     width: 90%;
