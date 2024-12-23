@@ -353,9 +353,16 @@
 }
 
 /* Diseño responsivo Navbar de Bootstrap */
-@media screen and (max-width: 1061px) {
+@media screen and (max-width: 1078px) {
     .navbar-nav {
         margin-top: -67px;
+    }
+}
+
+/* Diseño responsivo Navbar de Bootstrap */
+@media screen and (max-width: 575px) {
+    .navbar-nav {
+        margin-top: 10px;
     }
 }
 
