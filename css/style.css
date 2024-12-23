@@ -21,6 +21,48 @@ body {
   font-family: "Barlow Condensed", "Bebas Neue", "Montserrat", sans-serif;
   color: #272727;
   background: white;
+  display: block;
+}
+
+section {
+  scroll-margin-top: 165px;
+}
+
+.spacer {
+  height: 165px;
+}
+
+.dividers {
+  height: 15px;
+  background-image: url("../images/tf-bg.png");
+}
+
+.inicio-section {
+  background: url(../images/index_pic1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  height: 85vh;
+  background-color: white;
+  scroll-margin-top: 165px;
+}
+
+.portfolio-section {
+  background-image: url("../images/degradation7.png");
+  background-repeat: repeat-x;
+  height: 100%;
+  scroll-margin-top: 120px;
+}
+
+.about-section {
+  height: 100%;
+  scroll-margin-top: 120px;
+}
+
+.info-section {
+  height: 100%;
+  scroll-margin-top: 120px;
 }
 
 #main-header {
@@ -192,6 +234,45 @@ input[type=submit] {
 input[type=submit]:hover {
   /* Efecto de Cambio de Color del Botón Suscribir */
   opacity: 0.8;
+}
+
+#bottom-header {
+  top: 0;
+  left: 0;
+  height: 125px;
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: height 0.3s ease;
+}
+
+#bottom-header.scrolled {
+  height: 80px;
+}
+
+#navbar-size {
+  transition: margin-top 0.3s ease;
+}
+
+#navbar-size.scrolled-nav {
+  margin-top: -40px;
+}
+
+#header-container {
+  position: fixed;
+  width: 100%;
+}
+
+#bottom-header {
+  background-color: white;
+}
+
+#degradation-div-top {
+  background-image: url("../images/degradation6.png");
+  background-repeat: repeat-x;
+  height: 17px;
 }
 
 .navbar-nav {
@@ -1520,6 +1601,26 @@ footer {
 @media screen and (max-width: 570px) {
   .navbar-toggler {
     margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #bottom-header {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #bottom-header.scrolled {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  #navbar-size {
+    margin-top: -40px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .spacer {
+    height: 120px;
   }
 }
 

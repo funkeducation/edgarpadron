@@ -496,3 +496,27 @@
         margin-bottom: 15px;
     }
 }
+
+@media screen and (max-width: 1199px) {
+    #bottom-header {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #bottom-header.scrolled {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    #navbar-size {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .spacer {
+        height: 120px;
+    }
+}

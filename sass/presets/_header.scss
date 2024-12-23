@@ -169,3 +169,42 @@ input[type=submit]:hover {
     /* Efecto de Cambio de Color del Botón Suscribir */
     opacity: 0.8;
 }
+
+#bottom-header {
+    top: 0;
+    left: 0;
+    height: 125px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: height 0.3s ease;
+}
+
+#bottom-header.scrolled {
+    height: 80px;
+}
+
+#navbar-size {
+    transition: margin-top 0.3s ease;
+}
+
+#navbar-size.scrolled-nav {
+    margin-top: -40px;
+}
+
+#header-container {
+    position: fixed;
+    width: 100%;
+}
+
+#bottom-header {
+    background-color: white;
+}
+
+#degradation-div-top {
+    background-image: url("../images/degradation6.png");
+    background-repeat: repeat-x;
+    height: 17px;
+}

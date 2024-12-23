@@ -20,4 +20,46 @@ body {
     font-family: 'Barlow Condensed', 'Bebas Neue', 'Montserrat', sans-serif;
     color: #272727;
     background: white;
+    display: block;
 }
+
+  section {
+    scroll-margin-top: 165px;
+  }
+
+  .spacer {
+    height: 165px;
+  }
+
+  .dividers {
+    height: 15px;
+    background-image: url("../images/tf-bg.png");
+  }
+
+  .inicio-section {
+    background: url(../images/index_pic1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 85vh;
+    background-color: white;
+    scroll-margin-top: 165px;
+  }
+
+  .portfolio-section{
+    background-image: url("../images/degradation7.png");
+    background-repeat: repeat-x;
+    height: 100%;
+    scroll-margin-top: 120px;
+  }
+
+  .about-section{
+    height: 100%;
+    scroll-margin-top: 120px;
+  }
+
+  .info-section{
+    height: 100%;
+    scroll-margin-top: 120px;
+  }
