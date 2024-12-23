@@ -521,14 +521,14 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1199px) and (min-width: 601px) {
     #bottom-header {
-        background-image: url("../images/degradation9.png");
+        background-image: url("../images/degradation10.png");
     }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 600px) {
     #bottom-header {
-        background-image: url("../images/degradation10.png");
+        background-image: url("../images/degradation9.png");
     }
 }
