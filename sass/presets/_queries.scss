@@ -490,3 +490,9 @@
         padding-bottom: 30px;
     }
 }
+
+@media screen and (max-width: 570px) {
+    .navbar-toggler {
+        margin-bottom: 15px;
+    }
+}
