@@ -25,7 +25,7 @@ body {
 }
 
 section {
-  scroll-margin-top: 165px;
+  scroll-margin-top: 182px;
 }
 
 .spacer {
@@ -38,12 +38,12 @@ section {
 }
 
 .inicio-section {
-  background: url(../images/index_pic1.jpg);
+  background: url(../images/bg_one.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
-  height: 85vh;
+  height: auto;
   background-color: white;
   scroll-margin-top: 165px;
 }
@@ -556,6 +556,89 @@ main {
   font-family: "Barlow Condensed";
   font-weight: bold;
   margin-right: 0.5em;
+}
+
+#inicio-main-box {
+  /* Caja de Imagen Central */
+  max-width: 79%;
+  display: flex;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+#inicio-main-box-container {
+  /* Estilos Sección Contacto */
+  display: inline-flex;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Barlow Condensed";
+  cursor: default;
+  width: 100%;
+}
+
+#inicio-left-side {
+  /* Estilos Sección Contacto */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#square-in-left {
+  background-color: rgba(255, 255, 255, 0.623);
+  width: 80%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#square-in-right {
+  background-color: rgba(255, 255, 255, 0.623);
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#inicio-right-side {
+  /* Estilos Sección Contacto */
+  width: 50%;
+  background-image: url("../images/colors.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 730px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos Sección Contacto */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Estilos Sección Contacto */
+.inicio-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Estilos Sección Contacto */
+#inicio-container-div-size {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #blog-main {
@@ -1202,6 +1285,11 @@ footer {
     max-width: 90%;
   }
 }
+@media screen and (max-width: 1365px) {
+  #inicio-main-box {
+    max-width: 90%;
+  }
+}
 @media screen and (max-width: 989px) {
   #main-box {
     padding-top: 50px;
@@ -1524,6 +1612,31 @@ footer {
 @media screen and (max-width: 575px) {
   #form-size {
     width: 100%;
+  }
+}
+/* Diseño responsivo Sección Inicio */
+@media screen and (max-width: 1365px) {
+  #inicio-main-box-container {
+    display: inline-block;
+    margin-top: 0px;
+  }
+}
+/* Diseño responsivo Sección Inicio */
+@media screen and (max-width: 1365px) {
+  #inicio-left-side {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+  }
+}
+/* Diseño responsivo Sección Inicio */
+@media screen and (max-width: 1365px) {
+  #inicio-right-side {
+    width: 90%;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 /* Diseño responsivo Sección Sobre Mí */

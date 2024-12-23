@@ -1,0 +1,82 @@
+#inicio-main-box {
+    /* Caja de Imagen Central */
+    max-width: 79%;
+    display: flex;
+    height:min-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#inicio-main-box-container {
+    /* Estilos Sección Contacto */
+    display: inline-flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Barlow Condensed';
+    cursor: default;
+    width: 100%;
+}
+
+#inicio-left-side {
+    /* Estilos Sección Contacto */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#square-in-left {
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#square-in-right {
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#inicio-right-side {
+    /* Estilos Sección Contacto */
+    width: 50%;
+    background-image: url("../images/colors.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 730px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos Sección Contacto */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+/* Estilos Sección Contacto */
+  .inicio-container {
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+/* Estilos Sección Contacto */
+  #inicio-container-div-size {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }

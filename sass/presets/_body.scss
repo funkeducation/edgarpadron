@@ -24,7 +24,7 @@ body {
 }
 
   section {
-    scroll-margin-top: 165px;
+    scroll-margin-top: 182px;
   }
 
   .spacer {
@@ -37,12 +37,12 @@ body {
   }
 
   .inicio-section {
-    background: url(../images/index_pic1.jpg);
+    background: url(../images/bg_one.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-    height: 85vh;
+    height: auto;
     background-color: white;
     scroll-margin-top: 165px;
   }

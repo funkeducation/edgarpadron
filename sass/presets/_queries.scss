@@ -30,6 +30,12 @@
     }
 }
 
+@media screen and (max-width: 1365px) {
+    #inicio-main-box {
+        max-width: 90%;
+    }
+}
+
 @media screen and (max-width: 989px) {
     #main-box {
         padding-top: 50px;
@@ -406,6 +412,34 @@
 @media screen and (max-width: 575px) {
     #form-size {
         width: 100%;
+    }
+}
+
+/* Diseño responsivo Sección Inicio */
+@media screen and (max-width: 1365px) {
+    #inicio-main-box-container {
+        display: inline-block;
+        margin-top: 0px;
+    }
+}
+
+/* Diseño responsivo Sección Inicio */
+@media screen and (max-width: 1365px) {
+    #inicio-left-side {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+    }
+}
+
+/* Diseño responsivo Sección Inicio */
+@media screen and (max-width: 1365px) {
+    #inicio-right-side {
+        width: 90%;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
