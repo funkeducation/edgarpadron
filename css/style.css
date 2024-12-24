@@ -30,6 +30,8 @@ section {
 
 .spacer {
   height: 165px;
+  background-color: white;
+  background-image: url("../images/spacer_bg.png");
 }
 
 .dividers {
@@ -593,7 +595,7 @@ main {
   background-color: rgba(255, 255, 255, 0.623);
   width: 80%;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
 }
 
 #square-in-right {
