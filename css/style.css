@@ -67,6 +67,12 @@ section {
   scroll-margin-top: 120px;
 }
 
+#header-container {
+  position: fixed;
+  z-index: 9999; /* Asegúrate de que sea un valor alto */
+  width: 100%;
+}
+
 #main-header {
   /* Header Superior Color Gris */
   background: #232323;
