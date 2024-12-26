@@ -39,14 +39,26 @@ body {
   }
 
   .inicio-section {
-    background: url(../images/bg_two.jpg);
-    background-position: center;
+    background: url(../images/bg_one_lr.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-blend-mode: multiply;
-    height: auto;
+    background-attachment: fixed; /* Hace que el fondo no se mueva junto con el div */
+    background-position: center;
+    height: 750px;
     background-color: white;
     scroll-margin-top: 165px;
+    will-change: background-position;
+  }
+
+  #effect-bg {
+    background: url(../images/lines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Hace que el fondo no se mueva junto con el div */
+    background-position: center;
+    height: 750px;
+    scroll-margin-top: 165px;
+    will-change: background-position;
   }
 
   .portfolio-section{

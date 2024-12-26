@@ -40,3 +40,9 @@
       });
     });
   });
+
+  window.addEventListener('scroll', function () {
+    const parallaxDiv = document.querySelector('#effect-bg');
+    const scrollPosition = window.pageYOffset; // Posición del scroll
+    parallaxDiv.style.backgroundPositionY = `${scrollPosition * 0.05}px`; // Velocidad del parallax
+});
