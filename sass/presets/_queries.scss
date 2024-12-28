@@ -586,3 +586,15 @@
         background-image: url("../images/degradation9.png");
     }
 }
+
+@media screen and (max-width: 600px) {
+    #effect-bg {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .inicio-section {
+        background-attachment: scroll;
+    }
+}
