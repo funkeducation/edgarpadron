@@ -1796,6 +1796,7 @@ footer {
 @media screen and (max-width: 1199px) {
   .offcanvas {
     background-image: url("../images/topf-bg.png");
+    max-width: 175px;
   }
 }
 
