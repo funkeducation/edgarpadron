@@ -1800,6 +1800,7 @@ footer {
     max-height: 255px;
     border-radius: 15px 0 0 15px;
     margin-top: 40px;
+    box-shadow: 8px 3px 4px 2px #6b6b6b;
   }
 }
 @media screen and (max-width: 1199px) {
