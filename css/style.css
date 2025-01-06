@@ -51,6 +51,10 @@ section {
   will-change: background-position;
 }
 
+#proyectos {
+  scroll-margin-top: 135px;
+}
+
 #effect-bg {
   background: url(../images/lines.png);
   background-size: cover;
