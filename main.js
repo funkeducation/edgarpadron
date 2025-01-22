@@ -46,8 +46,3 @@
     const scrollPosition = window.pageYOffset; // Posición del scroll
     parallaxDiv.style.backgroundPositionY = `${scrollPosition * 0.05}px`; // Velocidad del parallax
 });
-
-window.onload = () => {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("content").style.display = "block";
-};
