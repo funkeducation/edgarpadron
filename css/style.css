@@ -135,6 +135,10 @@ section {
     opacity: 0.7;
   }
 }
+#content {
+  display: none;
+}
+
 #header-container {
   position: fixed;
   z-index: 9999; /* Asegúrate de que sea un valor alto */
