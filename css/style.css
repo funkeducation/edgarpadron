@@ -466,7 +466,7 @@ main {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 #main-picture {
@@ -716,7 +716,7 @@ input[type=text], select, textarea {
   /* Estilos Sección Portfolio / CV */
   max-width: 79%;
   margin: auto;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 60px;
   cursor: default;
   font-size: 23px;
@@ -886,6 +886,16 @@ input[type=text], select, textarea {
   border-radius: 10px;
 }
 
+#contacto-main-box {
+  /* Caja de Imagen Central */
+  max-width: 70%;
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
 #main-box-container {
   /* Estilos Sección Contacto */
   background: white;
@@ -894,24 +904,28 @@ input[type=text], select, textarea {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 100px;
-  font-family: "Barlow Condensed";
   cursor: default;
   width: 100%;
 }
 
 #contact-left-side {
   /* Estilos Sección Contacto */
-  width: 50%;
+  width: 30%;
+}
+
+#contact-center {
+  /* Estilos Sección Contacto */
+  width: 10%;
 }
 
 #contact-right-side {
   /* Estilos Sección Contacto */
-  width: 50%;
+  width: 60%;
   background-image: url("../images/map_location.jpg");
-  height: 800px;
+  height: 700px;
   background-attachment: local;
   background-position: center;
-  box-shadow: 30px 30px 45px #888888;
+  box-shadow: 10px 10px 15px #888888;
 }
 
 /* Estilos Sección Contacto */
@@ -924,6 +938,14 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+}
+
+#message {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 /* Estilos Sección Contacto */
@@ -946,24 +968,24 @@ input[type=submit]:hover {
 /* Estilos Sección Contacto */
 .container {
   border-radius: 5px;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Estilos Sección Contacto */
 #form-size {
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #about-main-box {
   /* Caja de Imagen Central */
-  max-width: 79%;
+  max-width: 70%;
   display: block;
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 #about-mb-container {
@@ -983,9 +1005,9 @@ input[type=submit]:hover {
   /* Estilos Sección Contacto */
   width: 600px;
   background-image: url("../images/edgar2.jpg");
-  height: 900px;
+  height: 700px;
   background-attachment: local;
-  background-position: center;
+  background-position: top;
 }
 
 #about-right-side {
@@ -1634,13 +1656,13 @@ footer {
 /* Diseño responsivo Sección Sobre Mí */
 @media screen and (min-width: 1921px) {
   #about-font {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
 }
 /* Diseño responsivo Sección Sobre Mí */
 @media screen and (min-width: 1365px) and (max-width: 1920px) {
   #about-font {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
 }
 /* Diseño responsivo Sección Sobre Mí */
