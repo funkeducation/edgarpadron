@@ -84,4 +84,11 @@ document.addEventListener("DOMContentLoaded", function () {
           modal.style.display = "none";
       }
   });
+
+  // Cerrar el modal al presionar la tecla ESC
+  document.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+          modal.style.display = "none";
+      }
+  });
 });
