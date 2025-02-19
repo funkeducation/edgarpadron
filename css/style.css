@@ -803,7 +803,7 @@ main {
   background-image: url("../images/colors.png");
   background-repeat: no-repeat;
   background-size: contain;
-  height: 730px;
+  height: 80vh;
   background-position: center;
   display: flex;
   justify-content: center;
@@ -1054,7 +1054,10 @@ input[type=text], select, textarea {
   height: 700px;
   background-attachment: local;
   background-position: center;
-  box-shadow: 10px 10px 15px #888888;
+  box-shadow: 10px 10px 10px #888888;
+  background-size: cover;
+  border-radius: 15px; /* Bordes redondeados */
+  overflow: hidden; /* Evita que la imagen de fondo sobresalga */
 }
 
 /* Estilos Sección Contacto */
@@ -1137,6 +1140,9 @@ input[type=submit]:hover {
   height: 700px;
   background-attachment: local;
   background-position: top;
+  background-size: cover;
+  border-radius: 15px; /* Bordes redondeados */
+  overflow: hidden; /* Evita que la imagen de fondo sobresalga */
 }
 
 #about-right-side {
@@ -1362,7 +1368,7 @@ footer {
     max-width: 90%;
   }
 }
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 1500px) {
   #inicio-main-box {
     max-width: 90%;
   }
@@ -1662,11 +1668,16 @@ footer {
     margin-top: 0px;
   }
 }
+@media screen and (max-width: 500px) {
+  #contacto-main-box {
+    max-width: 80%;
+  }
+}
 /* Diseño responsivo Sección Contacto */
 @media screen and (max-width: 1365px) {
   #contact-right-side {
     box-shadow: 20px 20px 35px #888888;
-    width: 80%;
+    width: 100%;
     height: 600px;
     margin-left: auto;
     margin-right: auto;
@@ -1686,20 +1697,26 @@ footer {
   }
 }
 /* Diseño responsivo Sección Contacto */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 600px) {
   #form-size {
     width: 100%;
   }
 }
 /* Diseño responsivo Sección Inicio */
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 600px) {
   #inicio-main-box-container {
     display: inline-block;
     margin-top: 0px;
   }
 }
 /* Diseño responsivo Sección Inicio */
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 969px) {
+  #inicio-left-side {
+    font-size: 10px;
+  }
+}
+/* Diseño responsivo Sección Inicio */
+@media screen and (max-width: 600px) {
   #inicio-left-side {
     width: 100%;
     margin-left: auto;
@@ -1708,24 +1725,35 @@ footer {
   }
 }
 /* Diseño responsivo Sección Inicio */
-@media screen and (min-width: 545px) and (max-width: 1364px) {
+@media screen and (min-width: 545px) and (max-width: 600px) {
   #inicio-left-side {
-    margin-top: 60px;
+    margin-top: 10px;
   }
 }
 /* Diseño responsivo Sección Inicio */
-@media screen and (min-width: 545px) and (max-width: 1364px) {
+@media screen and (min-width: 545px) and (max-width: 600px) {
   #inicio-right-side {
-    margin-top: 60px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #square-in-left {
+    width: 90%;
   }
 }
 /* Diseño responsivo Sección Inicio */
-@media screen and (max-width: 1365px) {
+@media screen and (max-width: 600px) {
   #inicio-right-side {
     width: 90%;
     height: 350px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+/* Diseño responsivo Sección Sobre Mí */
+@media screen and (max-width: 500px) {
+  #about-main-box {
+    max-width: 80%;
   }
 }
 /* Diseño responsivo Sección Sobre Mí */
@@ -1742,25 +1770,19 @@ footer {
     height: 700px;
     margin-left: auto;
     margin-right: auto;
-    background-attachment: local;
-    background-position: top;
   }
 }
 /* Diseño responsivo Sección Sobre Mí */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
   #about-left-side {
     width: 100%;
-    height: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    background-attachment: local;
-    background-position: top;
+    height: 500px;
   }
 }
 /* Diseño responsivo Sección Sobre Mí */
 @media screen and (max-width: 1365px) {
   #about-right-side {
-    margin-top: 60px;
+    margin-top: 20px;
     width: 100%;
   }
 }
@@ -1777,7 +1799,7 @@ footer {
   }
 }
 /* Diseño responsivo Sección Sobre Mí */
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 730px) {
   #about-font {
     font-size: 25px;
   }
@@ -1791,7 +1813,7 @@ footer {
 /* Diseño responsivo Sección Sobre Mí */
 @media screen and (min-width: 1365px) and (max-width: 1920px) {
   #about-font {
-    font-size: 1.6vw;
+    font-size: 1.7vw;
   }
 }
 /* Diseño responsivo Sección Sobre Mí */

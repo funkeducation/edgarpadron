@@ -37,7 +37,10 @@
     height: 700px;
     background-attachment:local;
     background-position: center;
-    box-shadow: 10px 10px 15px #888888;
+    box-shadow: 10px 10px 10px #888888;
+    background-size: cover;
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Evita que la imagen de fondo sobresalga */
 }
 
 /* Estilos Sección Contacto */

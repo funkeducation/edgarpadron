@@ -28,6 +28,9 @@
     height: 700px;
     background-attachment: local;
     background-position:top;
+    background-size: cover;
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden; /* Evita que la imagen de fondo sobresalga */
 }
 
 #about-right-side {
