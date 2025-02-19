@@ -53,3 +53,30 @@ document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("content").style.display = "block";
   }, 2000); // El loader durará 2 segundos antes de mostrar el contenido
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Selecciona todas las imágenes dentro de la sección del CV que NO tengan la clase 'no-expand'
+  const images = document.querySelectorAll("#portfolio img:not(.no-expand)");
+  const modal = document.getElementById("imageModal");
+  const modalImg = document.getElementById("modalImg");
+  const closeBtn = document.querySelector(".close");
+
+  images.forEach(img => {
+    img.addEventListener("click", function () {
+      modal.style.display = "block";
+      modalImg.src = this.src;
+    });
+  });
+
+  // Cerrar el modal al hacer clic en la 'X'
+  closeBtn.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+
+  // Cerrar el modal al hacer clic fuera de la imagen
+  modal.addEventListener("click", function (event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+});
