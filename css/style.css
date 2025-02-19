@@ -44,6 +44,7 @@
 html {
   min-width: 430px;
   scroll-behavior: smooth;
+  color-scheme: dark; /* Obliga al navegador a usar modo oscuro */
 }
 
 a {
@@ -903,8 +904,9 @@ input[type=text], select, textarea {
 
 .cv-pics:hover {
   /* Estilos Sección Portfolio / CV */
-  opacity: 0.6;
+  transform: scale(0.95);
   transition: 0.4s;
+  cursor: pointer;
 }
 
 .row {

@@ -78,6 +78,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
           modalCaption.textContent = tempElement.textContent.trim(); // Asigna el ALT limpio al caption
           modalCaption.style.display = modalCaption.textContent ? "block" : "none";
+
+          // Desactivar el scroll de la página
+          document.body.style.overflow = "hidden";
           
           // Si la imagen es la de Agencia Digitals, cargar otra imagen en el modal
           if (this.id === "digitals-img") {
@@ -91,12 +94,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // Cerrar el modal al hacer clic en la 'X'
   closeBtn.addEventListener("click", function () {
       modal.style.display = "none";
+      document.body.style.overflow = "auto"; // Reactivar el scroll
   });
 
   // Cerrar el modal al hacer clic fuera de la imagen
   modal.addEventListener("click", function (event) {
       if (event.target === modal) {
           modal.style.display = "none";
+          document.body.style.overflow = "auto"; // Reactivar el scroll
       }
   });
 
@@ -104,6 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("keydown", function (event) {
       if (event.key === "Escape") {
           modal.style.display = "none";
+          document.body.style.overflow = "auto"; // Reactivar el scroll
       }
   });
 });

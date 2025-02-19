@@ -67,8 +67,9 @@
 
 .cv-pics:hover {
     /* Estilos Sección Portfolio / CV */
-    opacity: 0.6;
+    transform: scale(0.95);
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .row {
