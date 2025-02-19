@@ -55,28 +55,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  // Selecciona todas las imágenes dentro de la sección del CV que NO tengan la clase 'no-expand'
   const images = document.querySelectorAll("#portfolio img:not(.no-expand)");
   const modal = document.getElementById("imageModal");
   const modalImg = document.getElementById("modalImg");
   const closeBtn = document.querySelector(".close");
 
   images.forEach(img => {
-    img.addEventListener("click", function () {
-      modal.style.display = "block";
-      modalImg.src = this.src;
-    });
+      img.addEventListener("click", function () {
+          modal.style.display = "block";
+          
+          // Si la imagen es la de Agencia Digitals, cargar otra imagen en el modal
+          if (this.id === "digitals-img") {
+              modalImg.src = "../images/digitals02.jpg"; // Reemplaza con la ruta de la imagen alternativa
+          } else {
+              modalImg.src = this.src;
+          }
+      });
   });
 
   // Cerrar el modal al hacer clic en la 'X'
   closeBtn.addEventListener("click", function () {
-    modal.style.display = "none";
+      modal.style.display = "none";
   });
 
   // Cerrar el modal al hacer clic fuera de la imagen
   modal.addEventListener("click", function (event) {
-    if (event.target === modal) {
-      modal.style.display = "none";
-    }
+      if (event.target === modal) {
+          modal.style.display = "none";
+      }
   });
 });

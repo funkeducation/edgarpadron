@@ -878,13 +878,13 @@ input[type=text], select, textarea {
   text-decoration: none;
 }
 
-#cv-pics {
+.cv-pics {
   /* Estilos Sección Portfolio / CV */
   border-radius: 10px;
   transition: 0.3s;
 }
 
-#cv-pics:hover {
+.cv-pics:hover {
   /* Estilos Sección Portfolio / CV */
   opacity: 0.6;
   transition: 0.4s;
