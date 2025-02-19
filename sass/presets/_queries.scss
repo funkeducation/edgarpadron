@@ -635,3 +635,10 @@
     padding-top: 0;
         }
     }
+
+@media screen and (max-width:1000px) {
+    .cv-pics:hover {
+    transform:none;
+    transition:none;
+        }
+    }
