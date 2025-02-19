@@ -548,12 +548,19 @@ nav ul li a {
 
 .close {
   position: absolute;
-  top: 15px;
-  right: 25px;
-  color: #fff;
-  font-size: 35px;
+  top: 0px;
+  right: 40px;
+  color: #ffffff;
+  font-size: 65px;
   font-weight: bold;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.close:hover {
+  transition: 0.3s;
+  color: #ebebeb;
+  text-shadow: 0 0 10px #000000;
 }
 
 /* Ocultar el modal en pantallas menores a 1000px */
