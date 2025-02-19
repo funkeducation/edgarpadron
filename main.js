@@ -58,11 +58,26 @@ document.addEventListener("DOMContentLoaded", function () {
   const images = document.querySelectorAll("#portfolio img:not(.no-expand)");
   const modal = document.getElementById("imageModal");
   const modalImg = document.getElementById("modalImg");
+  const modalCaption = document.getElementById("modalCaption"); 
   const closeBtn = document.querySelector(".close");
 
   images.forEach(img => {
       img.addEventListener("click", function () {
           modal.style.display = "block";
+          modalImg.src = this.src;
+
+          // Capturar el ALT y limpiarlo de cualquier nodo <br>
+          let captionText = this.alt;
+
+          // Crear un elemento temporal para manejar cualquier contenido interpretado como HTML
+          let tempElement = document.createElement("div");
+          tempElement.innerHTML = captionText;
+
+          // Reemplazar cualquier <br> dentro del alt por un espacio
+          tempElement.querySelectorAll("br").forEach(br => br.replaceWith(" "));
+
+          modalCaption.textContent = tempElement.textContent.trim(); // Asigna el ALT limpio al caption
+          modalCaption.style.display = modalCaption.textContent ? "block" : "none";
           
           // Si la imagen es la de Agencia Digitals, cargar otra imagen en el modal
           if (this.id === "digitals-img") {

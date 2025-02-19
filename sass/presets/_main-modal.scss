@@ -46,3 +46,12 @@
     }
   }
   
+  #modalCaption {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-top: 6px;
+    display: none; /* Se mostrará solo cuando haya contenido */
+    cursor: default;
+}
