@@ -10,7 +10,7 @@
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.8);
   }
-  
+
   .modal-content {
     display: block;
     margin: auto;
@@ -21,37 +21,44 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  
+
   .close {
     position: absolute;
-    top: 0px;
     right: 40px;
     color: #ffffff;
     font-size: 65px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
+    line-height: 30px;
   }
 
   .close:hover {
     transition: 0.3s;
     color: #ebebeb;
     text-shadow: 0 0 10px #000000;
-}
-  
+  }
+
   /* Ocultar el modal en pantallas menores a 1000px */
-@media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1000px) {
     #imageModal {
       display: none !important;
     }
   }
-  
+
   #modalCaption {
     color: white;
     text-align: center;
     font-size: 18px;
     font-family: "Barlow Condensed", sans-serif;
-    margin-top: 6px;
-    display: none; /* Se mostrará solo cuando haya contenido */
+    padding-top: 6px;
+    display: none;
+    /* Se mostrará solo cuando haya contenido */
     cursor: default;
-}
+  }
+
+  #modalContainer {
+    background-image: url("../images/tf-bg.png");
+    background-repeat: repeat-x;
+    height: 40px;
+  }

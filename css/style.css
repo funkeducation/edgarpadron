@@ -549,13 +549,13 @@ nav ul li a {
 
 .close {
   position: absolute;
-  top: 0px;
   right: 40px;
   color: #ffffff;
   font-size: 65px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  line-height: 30px;
 }
 
 .close:hover {
@@ -575,9 +575,16 @@ nav ul li a {
   text-align: center;
   font-size: 18px;
   font-family: "Barlow Condensed", sans-serif;
-  margin-top: 6px;
-  display: none; /* Se mostrará solo cuando haya contenido */
+  padding-top: 6px;
+  display: none;
+  /* Se mostrará solo cuando haya contenido */
   cursor: default;
+}
+
+#modalContainer {
+  background-image: url("../images/tf-bg.png");
+  background-repeat: repeat-x;
+  height: 40px;
 }
 
 main {
