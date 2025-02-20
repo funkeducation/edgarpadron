@@ -3,14 +3,14 @@
 Bienvenido al repositorio del sitio web personal de **Edgar Padrón**, un espacio donde se presentan su perfil profesional, experiencia en desarrollo digital y marketing, así como proyectos y certificaciones.<br/><br/>
 Éste repositorio ha sido creado para el proyecto de Desarrollo Web, de la comisión #59930 de Coderhouse.
 
-✍️ ## Autor
+## ✍️ Autor
 
 - **Edgar Alfonso Padrón Centeno** - *Desarrollador Web & Community Manager*
 - GitHub: [funkeducation](https://github.com/funkeducation)
 - Sitio Web: [edgarpadron.me](https://edgarpadron.me)
 - Ubicación: Santiago de Chile 🇨🇱
 
-💻 ## Tecnologías Utilizadas
+## 💻 Tecnologías Utilizadas
 
 Este sitio web ha sido desarrollado utilizando:
 
@@ -21,7 +21,7 @@ Este sitio web ha sido desarrollado utilizando:
 - **Font Awesome** - Íconos personalizados.
 - **Animate.css** - Animaciones CSS.
 
-🤖 ## Características Principales
+## 🤖 Características Principales
 
 - **Diseño Responsive:** Adaptado a dispositivos móviles y escritorio.
 - **Animaciones y efectos:** Implementación de efectos visuales atractivos.
@@ -33,7 +33,7 @@ Este sitio web ha sido desarrollado utilizando:
 - **Página de error personalizada:** Diseño funcional de 404.html.
 - **Optimización SEO:** Metadatos y estructura semántica optimizada.
 
-🏗️ ## Estructura del Proyecto
+## 🏗️ Estructura del Proyecto
 
 ```
 ├── css/               # Archivos de estilos (style.css, SASS)
@@ -45,7 +45,7 @@ Este sitio web ha sido desarrollado utilizando:
 └── assets/            # Fuentes y archivos adicionales
 ```
 
-✉️ ## Contacto
+## ✉️ Contacto
 
 Si deseas ponerte en contacto conmigo, puedes hacerlo a través de:
 - **Email:** [edgarapc87@gmail.com](mailto:edgarapc87@gmail.com)
