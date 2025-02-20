@@ -1,6 +1,6 @@
 # Sitio Web Personal - Edgar Padrón
 
-Bienvenido al repositorio del sitio web personal de **Edgar Padrón**, un espacio donde se presentan su perfil profesional, experiencia en desarrollo digital y marketing, así como proyectos y certificaciones.<br/>
+Bienvenido al repositorio del sitio web personal de **Edgar Padrón**, un espacio donde se presentan su perfil profesional, experiencia en desarrollo digital y marketing, así como proyectos y certificaciones.<br/><br/>
 Éste repositorio ha sido creado para el proyecto de Desarrollo Web, de la comisión #59930 de Coderhouse.
 
 ## Autor
