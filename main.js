@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // Reemplazar cualquier <br> dentro del alt por un espacio
       tempElement.querySelectorAll("br").forEach(br => br.replaceWith(" "));
 
-      modalCaption.textContent = tempElement.textContent.trim(); // Asigna el ALT limpio al caption
+      modalCaption.textContent = tempElement.textContent.trim().toUpperCase(); // Convertir a mayúsculas
       modalCaption.style.display = modalCaption.textContent ? "block" : "none";
 
       // Desactivar el scroll solo si la resolución es mayor a 1000px
