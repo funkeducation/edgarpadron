@@ -172,3 +172,42 @@
     width: 100%;
     border-radius: 10px;
 }
+
+.right-container {
+    position: relative; /* Mantiene la posición relativa */
+  }
+  
+  .badges-container {
+    position: absolute;
+    bottom: 10px; /* Distancia desde la parte inferior */
+    right: 10px; /* Distancia desde la derecha */
+    display: flex;
+    gap: 10px; /* Espacio entre los badges */
+  }
+  
+  .css3-badge,
+  .html5-badge,
+  .js-badge {
+    width: 30px;
+    height: auto;
+  }
+
+  .wp-badge {
+    width: 34.28px;
+    height: auto;
+  }
+
+  .gsuite-badge {
+    width: auto;
+    height: 34.28px;
+  }
+
+  .css3-badge:hover, .js-badge:hover, .html5-badge:hover {
+    filter: drop-shadow(1px 1px rgb(180, 180, 180)) drop-shadow(1px -1px rgb(180, 180, 180))
+    drop-shadow(-1px 1px rgb(180, 180, 180)) drop-shadow(-1px -1px rgb(180, 180, 180));
+  }
+
+  .wp-badge:hover, .gsuite-badge:hover {
+    filter: drop-shadow(1px 1px rgb(90, 90, 90)) drop-shadow(1px -1px rgb(90, 90, 90))
+    drop-shadow(-1px 1px rgb(90, 90, 90)) drop-shadow(-1px -1px rgb(90, 90, 90));
+  }
