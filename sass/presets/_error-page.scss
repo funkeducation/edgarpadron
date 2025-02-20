@@ -1,7 +1,13 @@
-#error-page-button{
+#error-page-button {
     /* Botón de Inicio Página 404.html */
         border-radius: 6px;
         padding-left: 15px;
         padding-right: 15px;
         border-width: 1px;
+        background-color: #d4d4d4;
+    }
+
+#error-button-font:hover {
+    color: #a5a5a5;
+    transition: 0.3s;
     }

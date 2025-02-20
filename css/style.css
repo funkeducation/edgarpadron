@@ -1347,6 +1347,12 @@ footer {
   padding-left: 15px;
   padding-right: 15px;
   border-width: 1px;
+  background-color: #d4d4d4;
+}
+
+#error-button-font:hover {
+  color: #a5a5a5;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 665px) {
