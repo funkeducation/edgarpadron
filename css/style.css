@@ -1878,5 +1878,11 @@ footer {
     transition: none;
   }
 }
+@media screen and (max-width: 612px) {
+  .row {
+    margin: 0px;
+    padding: 0px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
