@@ -192,7 +192,8 @@
     height: auto;
   }
 
-  .wp-badge {
+  .wp-badge,
+  .github-badge {
     width: 34.28px;
     height: auto;
   }
@@ -202,7 +203,7 @@
     height: 34.28px;
   }
 
-  .css3-badge:hover, .js-badge:hover, .html5-badge:hover {
+  .css3-badge:hover, .js-badge:hover, .html5-badge:hover, .github-badge:hover {
     filter: drop-shadow(1px 1px rgb(180, 180, 180)) drop-shadow(1px -1px rgb(180, 180, 180))
     drop-shadow(-1px 1px rgb(180, 180, 180)) drop-shadow(-1px -1px rgb(180, 180, 180));
   }
@@ -210,4 +211,8 @@
   .wp-badge:hover, .gsuite-badge:hover {
     filter: drop-shadow(1px 1px rgb(90, 90, 90)) drop-shadow(1px -1px rgb(90, 90, 90))
     drop-shadow(-1px 1px rgb(90, 90, 90)) drop-shadow(-1px -1px rgb(90, 90, 90));
+  }
+
+  #badge-links {
+    font-size: 0;
   }
