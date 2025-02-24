@@ -65,6 +65,7 @@ body {
   color: #272727;
   background: white;
   display: block;
+  user-select: none;
 }
 
 section {
