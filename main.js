@@ -115,3 +115,20 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+// Botón "Back to Top"
+const mybutton = document.getElementById("btn-back-to-top");
+
+// Aparecer / desaparecer con fade-in y fade-out
+window.addEventListener('scroll', function () {
+  if (document.body.scrollTop > 780 || document.documentElement.scrollTop > 780) {
+    mybutton.classList.add("show");
+  } else {
+    mybutton.classList.remove("show");
+  }
+});
+
+// Evento click para ir arriba
+mybutton.addEventListener("click", function() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});

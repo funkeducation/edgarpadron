@@ -127,6 +127,27 @@ section {
   scroll-margin-top: 120px;
 }
 
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+  border-color: #bbbbbb;
+  background-color: #272727;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-in-out;
+}
+
+#btn-back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+#btn-back-to-top:hover {
+  border-color: #ffffff;
+}
+
 #header-container {
   position: fixed;
   z-index: 9999; /* Asegúrate de que sea un valor alto */
