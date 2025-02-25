@@ -1392,19 +1392,6 @@ footer {
   transition: 0.3s;
 }
 
-.nav-vertical {
-  /* Estilo Custom Botón Go to the Top */
-  position: relative;
-  bottom: -2.8em;
-  right: 1em;
-  float: right;
-}
-
-.btn-nav-vertical {
-  /* Estilo Custom Botón Go to the Top */
-  display: block;
-}
-
 #error-page-button {
   /* Botón de Inicio Página 404.html */
   border-radius: 6px;
@@ -1569,11 +1556,6 @@ footer {
 @media screen and (max-width: 665px) {
   #front-text-2 {
     text-align: left;
-  }
-}
-@media screen and (max-width: 665px) {
-  .nav-vertical {
-    display: none;
   }
 }
 @media screen and (max-width: 471px) {
