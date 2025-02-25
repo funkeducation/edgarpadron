@@ -1,3 +1,13 @@
+// Remueve cualquier hash (#) al cargar la página
+document.addEventListener("DOMContentLoaded", function () {
+  history.replaceState(null, '', ' ');
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+});
+
+window.addEventListener('load', function () {
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+});
+
 // Seleccionar el header
 const header = document.getElementById('bottom-header');
 
@@ -26,6 +36,7 @@ window.addEventListener('scroll', () => {
 
 // Espera a que el DOM esté completamente cargado
 document.addEventListener("DOMContentLoaded", function () {
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   // Obtén todos los enlaces del menú
   const navLinks = document.querySelectorAll(".nav-link");
 
@@ -48,9 +59,11 @@ window.addEventListener('scroll', function () {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   setTimeout(() => {
     document.getElementById("loader").style.display = "none";
     document.getElementById("content").style.display = "block";
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   }, 2000); // El loader durará 2 segundos antes de mostrar el contenido
 });
 
@@ -131,4 +144,19 @@ window.addEventListener('scroll', function () {
 // Evento click para ir arriba
 mybutton.addEventListener("click", function() {
   window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll(".nav-link"); // Selecciona los enlaces del menú
+  const navbarCollapse = document.querySelector(".offcanvas"); // Selecciona el menú offcanvas
+
+  navLinks.forEach(link => {
+      link.addEventListener("click", function () {
+          // Cierra el menú después de hacer clic en un enlace
+          const offcanvas = bootstrap.Offcanvas.getInstance(navbarCollapse);
+          if (offcanvas) {
+              offcanvas.hide();
+          }
+      });
+  });
 });
