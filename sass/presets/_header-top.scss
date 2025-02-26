@@ -1,0 +1,92 @@
+#header-container {
+    position: fixed;
+    z-index: 9999; /* Asegúrate de que sea un valor alto */
+    width: 100%;
+}
+
+#main-header {
+    /* Header Superior Color Gris */
+
+    background: #232323;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    background-image: url("../images/tf-bg.png");
+    background-repeat: repeat-x;
+}
+
+#top-header-left-side {
+    /* Lado Izquierdo del Header Superior */
+    width: 50%;
+    height: 40px;
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    color: #8f8f8f;
+}
+
+#mail-header {
+    /* Texto de la Dirección de Correo */
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: 'Barlow Condensed';
+    margin-left: 10px;
+}
+
+.bfl2-hover:hover {
+    /* Efecto de enlace e-mail fade-in */
+    color: #535353;
+    transition: 0.3s;
+}
+
+.bfl2-hover {
+    /* Efecto de enlace e-mail fade-out */
+    color: #8f8f8f;
+    transition: 0.4s;
+}
+
+#top-header-right-side {
+    /* Lado Derecho del Header Superior */
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+#top-header-right-side-box {
+    /* DIV Contenedor del Texto e Íconos RRSS */
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#text-header {
+    /* Texto lateral RRSS */
+    color: #8f8f8f;
+    text-decoration: none;
+    font-family: 'Barlow Condensed';
+    font-size: 1.2em;
+    margin-right: 5px;
+    cursor: default;
+    align-items: center;
+}
+
+#social-media-icons-header {
+    /* Íconos RRSS */
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.fa-brands-top {
+    /* Estilo Custom Fade-Out Íconos RRSS */
+    color: #535353;
+    transition: 0.4s;
+}
+
+.fa-brands-top:hover {
+    /* Estilo Custom Fade-In Íconos RRSS */
+    color: #a5a5a5;
+    transition: 0.3s;
+}
