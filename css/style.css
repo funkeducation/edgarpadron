@@ -507,7 +507,6 @@ main {
   background-color: white;
   scroll-margin-top: 165px;
   will-change: background-position;
-  overflow: hidden;
 }
 
 #inicio-main-box {
