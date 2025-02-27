@@ -50,28 +50,6 @@
     float: right;
 }
 
-input[type=text] {
-    /* Estilos del Input de Suscribir */
-    width: 250px;
-    height: 30px;
-    border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
-}
-
-input[type=submit] {
-    /* Estilos del Botón de Suscribir */
-    width: 80px;
-    height: 30px;
-    border: 1px solid #ccc;
-    background-color: #d4d4d4;
-    border-radius: 0 4px 4px 0;
-}
-
-input[type=submit]:hover {
-    /* Efecto de Cambio de Color del Botón Suscribir */
-    opacity: 0.8;
-}
-
 #bottom-header {
     top: 0;
     left: 0;

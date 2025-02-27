@@ -3,6 +3,13 @@
     box-sizing: border-box;
 }
 
+.portfolio-section{
+    background-image: url("../images/degradation7.png");
+    background-repeat: repeat-x;
+    height: 100%;
+    scroll-margin-top: 120px;
+}
+
 .main-cv {
     /* Estilos Sección Portfolio / CV */
     max-width: 79%;
@@ -42,12 +49,12 @@
     margin-bottom: 5px;
 }
 
-#title-h2-cv {
+.title-h2-cv {
     /* Estilos Sección Portfolio / CV */
     font-size: 50px;
 }
 
-#title-h3-cv {
+.title-h3-cv {
     /* Estilos Sección Portfolio / CV */
     font-size: 26px;
     font-weight: 600;
@@ -58,6 +65,10 @@
     color: #000000;
     text-decoration: none;
 }
+
+#proyectos {
+    scroll-margin-top: 135px;
+  }
 
 .cv-pics {
     /* Estilos Sección Portfolio / CV */

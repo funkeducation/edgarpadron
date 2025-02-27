@@ -83,27 +83,6 @@ section {
   background-image: url("../images/tf-bg.png");
 }
 
-#proyectos {
-  scroll-margin-top: 135px;
-}
-
-.portfolio-section {
-  background-image: url("../images/degradation7.png");
-  background-repeat: repeat-x;
-  height: 100%;
-  scroll-margin-top: 120px;
-}
-
-.about-section {
-  height: 100%;
-  scroll-margin-top: 120px;
-}
-
-.info-section {
-  height: 100%;
-  scroll-margin-top: 120px;
-}
-
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
@@ -267,28 +246,6 @@ section {
   justify-content: right;
   align-items: end;
   float: right;
-}
-
-input[type=text] {
-  /* Estilos del Input de Suscribir */
-  width: 250px;
-  height: 30px;
-  border: 1px solid #ccc;
-  border-radius: 4px 0 0 4px;
-}
-
-input[type=submit] {
-  /* Estilos del Botón de Suscribir */
-  width: 80px;
-  height: 30px;
-  border: 1px solid #ccc;
-  background-color: #d4d4d4;
-  border-radius: 0 4px 4px 0;
-}
-
-input[type=submit]:hover {
-  /* Efecto de Cambio de Color del Botón Suscribir */
-  opacity: 0.8;
 }
 
 #bottom-header {
@@ -626,6 +583,13 @@ main {
   box-sizing: border-box;
 }
 
+.portfolio-section {
+  background-image: url("../images/degradation7.png");
+  background-repeat: repeat-x;
+  height: 100%;
+  scroll-margin-top: 120px;
+}
+
 .main-cv {
   /* Estilos Sección Portfolio / CV */
   max-width: 79%;
@@ -665,12 +629,12 @@ main {
   margin-bottom: 5px;
 }
 
-#title-h2-cv {
+.title-h2-cv {
   /* Estilos Sección Portfolio / CV */
   font-size: 50px;
 }
 
-#title-h3-cv {
+.title-h3-cv {
   /* Estilos Sección Portfolio / CV */
   font-size: 26px;
   font-weight: 600;
@@ -680,6 +644,10 @@ main {
   /* Estilos Sección Portfolio / CV */
   color: #000000;
   text-decoration: none;
+}
+
+#proyectos {
+  scroll-margin-top: 135px;
 }
 
 .cv-pics {
@@ -843,6 +811,11 @@ main {
   font-size: 0;
 }
 
+.info-section {
+  height: 100%;
+  scroll-margin-top: 120px;
+}
+
 #contacto-main-box {
   /* Caja de Imagen Central */
   max-width: 70%;
@@ -900,16 +873,14 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-#message {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+input[type=text] {
+  /* Estilos del Input de Suscribir */
+  height: 30px;
 }
 
 /* Estilos Sección Contacto */
 input[type=submit] {
+  height: 30px;
   background-color: #464646;
   color: white;
   border: none;
@@ -923,6 +894,15 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #9c9c9c;
   transition: 0.3s;
+  opacity: 0.8;
+}
+
+#message {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 /* Estilos Sección Contacto */
@@ -936,6 +916,11 @@ input[type=submit]:hover {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.about-section {
+  height: 100%;
+  scroll-margin-top: 120px;
 }
 
 #about-main-box {
