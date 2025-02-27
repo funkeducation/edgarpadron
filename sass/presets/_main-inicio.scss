@@ -5,6 +5,19 @@ main {
   background-color: #ffffff;
 }
 
+.inicio-section {
+  background: url(../images/bg_one_lr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Hace que el fondo no se mueva junto con el div */
+  background-position: center;
+  height: 750px;
+  background-color: white;
+  scroll-margin-top: 165px;
+  will-change: background-position;
+  overflow: hidden;
+}
+
 #inicio-main-box {
     /* Caja de Imagen Central */
     max-width: 79%;
@@ -67,7 +80,7 @@ main {
     background-image: url("../images/edgar_front.png");
     background-repeat: no-repeat;
     background-size:contain;
-    height:80vh;
+    height: 700px;
     background-position: center;
     display: flex;
     justify-content: center;

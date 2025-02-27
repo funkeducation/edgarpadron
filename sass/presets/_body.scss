@@ -40,18 +40,6 @@ body {
     background-image: url("../images/tf-bg.png");
   }
 
-  .inicio-section {
-    background: url(../images/bg_one_lr.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Hace que el fondo no se mueva junto con el div */
-    background-position: center;
-    height: 750px;
-    background-color: white;
-    scroll-margin-top: 165px;
-    will-change: background-position;
-  }
-
   #proyectos {
     scroll-margin-top: 135px;
   }
