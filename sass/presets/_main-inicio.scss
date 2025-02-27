@@ -1,3 +1,10 @@
+main {
+  /* DIV del Header Inferior */
+  background-image: url("../images/degradation4.png");
+  background-repeat: repeat-x;
+  background-color: #ffffff;
+}
+
 #inicio-main-box {
     /* Caja de Imagen Central */
     max-width: 79%;
@@ -55,18 +62,6 @@
     justify-content: center;
     align-items: center;
 }
-
-/* Estilos Sección Contacto */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
   
 /* Estilos Sección Contacto */
   .inicio-container {
