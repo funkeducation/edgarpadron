@@ -138,16 +138,3 @@ footer {
     color: #535353;
     transition: 0.3s;
 }
-
-.boton-hover {
-    /* Estilo Custom Botón Go to the Top */
-    width: 64px;
-    height: 64px;
-    transition: 0.4s;
-}
-
-.imglink:hover .boton-hover {
-    /* Estilo Custom Botón Go to the Top */
-    opacity: 0.4;
-    transition: 0.3s;
-}

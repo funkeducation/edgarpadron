@@ -127,7 +127,7 @@ section {
 
 #header-container {
   position: fixed;
-  z-index: 9999; /* Asegúrate de que sea un valor alto */
+  z-index: 99999999; /* Asegúrate de que sea un valor alto */
   width: 100%;
 }
 
@@ -399,21 +399,6 @@ nav ul li a {
   padding-left: 0;
 }
 
-.me-2 {
-  /* Estilos del NAVBAR Subscription Form*/
-  margin-right: 0 !important;
-}
-
-.form-control {
-  /* Estilos del NAVBAR Subscription Form*/
-  border-radius: 6px 0 0 6px;
-}
-
-.btn {
-  /* Estilos del NAVBAR Subscription Form*/
-  border-radius: 0 6px 6px 0;
-}
-
 /* Contenedor del loader */
 #loader {
   position: fixed;
@@ -625,7 +610,6 @@ main {
 }
 
 #inicio-right-side {
-  /* Estilos Sección Contacto */
   width: 50%;
   background-image: url("../images/edgar_front.png");
   background-repeat: no-repeat;
@@ -635,19 +619,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/* Estilos Sección Contacto */
-.inicio-container {
-  border-radius: 5px;
-  padding: 20px;
-}
-
-/* Estilos Sección Contacto */
-#inicio-container-div-size {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /* Estilos Sección Portfolio / CV */
@@ -1165,19 +1136,6 @@ footer {
   transition: 0.3s;
 }
 
-.boton-hover {
-  /* Estilo Custom Botón Go to the Top */
-  width: 64px;
-  height: 64px;
-  transition: 0.4s;
-}
-
-.imglink:hover .boton-hover {
-  /* Estilo Custom Botón Go to the Top */
-  opacity: 0.4;
-  transition: 0.3s;
-}
-
 #error-page-button {
   /* Botón de Inicio Página 404.html */
   border-radius: 6px;
@@ -1679,6 +1637,11 @@ footer {
   .row {
     margin: 0px;
     padding: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  #btn-back-to-top {
+    display: none;
   }
 }
 

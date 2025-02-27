@@ -75,7 +75,6 @@ main {
 }
 
 #inicio-right-side {
-    /* Estilos Sección Contacto */
     width: 50%;
     background-image: url("../images/edgar_front.png");
     background-repeat: no-repeat;
@@ -86,16 +85,3 @@ main {
     justify-content: center;
     align-items: center;
 }
-  
-/* Estilos Sección Contacto */
-  .inicio-container {
-    border-radius: 5px;
-    padding: 20px;
-  }
-
-/* Estilos Sección Contacto */
-  #inicio-container-div-size {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-  }

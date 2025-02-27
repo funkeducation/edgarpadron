@@ -570,3 +570,9 @@
     padding: 0px;
         }
     }
+
+    @media screen and (max-width:600px) {
+        #btn-back-to-top {
+        display:none;
+            }
+        }
