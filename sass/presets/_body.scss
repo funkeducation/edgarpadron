@@ -56,17 +56,6 @@ body {
     scroll-margin-top: 135px;
   }
 
-  #effect-bg {
-    background: url(../images/lines.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed; /* Hace que el fondo no se mueva junto con el div */
-    background-position: center;
-    height: 750px;
-    scroll-margin-top: 165px;
-    will-change: background-position;
-  }
-
   .portfolio-section{
     background-image: url("../images/degradation7.png");
     background-repeat: repeat-x;
