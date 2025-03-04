@@ -793,12 +793,12 @@ main {
   height: auto;
 }
 
-.gsuite-badge {
+.gsuite-badge, .bs-badge {
   width: auto;
   height: 34.28px;
 }
 
-.css3-badge:hover, .js-badge:hover, .html5-badge:hover, .github-badge:hover {
+.css3-badge:hover, .js-badge:hover, .html5-badge:hover, .github-badge:hover, .bs-badge:hover {
   filter: drop-shadow(1px 1px rgb(180, 180, 180)) drop-shadow(1px -1px rgb(180, 180, 180)) drop-shadow(-1px 1px rgb(180, 180, 180)) drop-shadow(-1px -1px rgb(180, 180, 180));
 }
 
