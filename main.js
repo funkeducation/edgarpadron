@@ -160,3 +160,13 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  // Seleccionar todos los badges dentro de la sección CV
+  const badges = document.querySelectorAll(".badges-container img");
+
+  // Iterar sobre cada badge y agregar el tooltip
+  badges.forEach(badge => {
+      badge.setAttribute("title", badge.alt); // Usa el ALT como tooltip
+  });
+});
